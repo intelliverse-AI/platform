@@ -1,0 +1,562 @@
+/* == DASHBOARD == */
+
+.dashboard {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.dash-side-nav {
+    height: 100%;
+    width: 300px;
+    background-color: var(--white);
+    color: #fff;
+    transition: width 0.3s ease;
+    overflow: hidden;
+}
+.dash-side-nav .links.nav{
+    height: 100vh;
+    border-right: 1px solid var(--grey);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+span.dash-logo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--color);
+    line-height: 34px;
+    margin-right: 32px;
+}
+
+span.dash-logo span.logo-text-one{
+    color: var(--active-color) !important;
+}
+
+span.dash-logo span.logo-text-one{
+    color: var(--color);
+}
+button.link{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    background-color: var(--white);
+    color: var(--color);
+    border: 0px;
+    border-right: 3px;
+}
+button.link:hover{
+    background-color: var(--light-grey);
+    color: var(--active-color);
+    border-right: 3px solid var(--active-color);
+}
+button.link:hover button.link .text span{
+    color: var(--active-color) !important;
+}
+button.link.btn-content.active{
+    background-color: var(--light-grey);
+    color: var(--active-color);
+    border-right: 3px solid var(--active-color);
+}
+button.link.btn-content.active .text span{
+    color: var(--active-color) !important;
+}
+button.create-btn{
+    margin: 28px 0px 10px;
+}
+button.create-btn .icon{
+    box-shadow: 2px 2px 12px #00000033;
+}
+button.link .icon{
+    height: 48px;
+    width: 48px;
+    padding: 0px 15px;
+    margin: 2px 10px;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button.link .icon.menu-bar{
+    cursor: pointer;
+}
+button.link .icon i{
+    font-size: 20px;
+
+}
+button.link .text{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color);
+    transition: all ease 300ms;
+}
+.dash-side-content{
+    background-color: var(--white);
+    flex-grow: 2;
+    width: 100%;
+    padding: 10px 20px 20px;
+}
+.dash-title{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.dash-profile-card{
+    background-color: var(--active-color);
+    padding: 15px;
+    width: 100%;
+    max-width: 500px;
+    min-width: 280px;
+    border-radius: 20px;
+}
+.dash-profile-card h1{
+    color: var(--white);
+}
+.dash-profile-card p{
+    color: var(--light-grey);
+    font-weight: 500;
+}
+.dash-profile-access{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dash-profile-access button{
+    height: 40px;
+    width: 120px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid #00000000;
+    border-radius: 20px;
+    margin: 5px;
+}
+.dash-profile-access button.btn-login{
+    background-color: var(--color);
+    color: var(--white);
+}
+.dash-profile-access button.btn-register{
+    background-color: var(--white);
+    color: var(--color);
+    border: 1px solid var(--color) !important;
+}
+.dash-content-displayed{
+    padding: 20px 0px;
+}
+.dash-content-intro{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.intro-text.dci{
+    width: 100%;
+    max-width: 400px;
+    min-width: 280px;
+}
+.intro-text.dci h1{
+    color: var(--color);
+}
+.intro-text.dci p{
+    color: var(--color);
+    font-weight: 500;
+    margin: 0px 0px 30px;
+}
+.intro-text.dci button{
+    color: var(--white);
+    font-weight: 500;
+    margin: 0px 0px 10px;
+    height: 40px;
+    border: 0px;
+    border-radius: 20px;
+    padding: 2px 20px;
+    background-color: var(--color);
+}
+.dash-main-cards{
+    height: fit-content;
+    width: 100%;
+}
+.dash-main-cards .top{
+    width: 100%;
+}
+.dash-cards-categories {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.dash-cards-categories span{
+    height: 30px;
+    border-radius: 15px;
+    padding: 2px 20px;
+    margin: 4px;
+    border: 1px solid var(--grey);
+}
+.dash-main-cards .cards{
+    width: 100%;
+}
+.cards .card-topic{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+.cards .card-topic h2{
+    color: var(--color);
+    font-size: 20px;
+}
+.cards .card-topic a{
+    color: var(--color);
+    font-weight: 500;
+}
+.cards .card-topic a:hover{
+    color: var(--active-color);
+}
+.topic-cards{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.topic-card{
+    width: 280px;
+    overflow: hidden;
+    border: 1px solid var(--grey);
+    border-radius: 20px;
+    margin: 10px;
+}
+.topic-card .img{
+    height: 120px;
+    width: 100%;
+    overflow: hidden;
+}
+.topic-card .img img{
+    width: 100%;
+}
+.topic-card .topic-card-info{
+    background-color: var(--white) !important;
+    padding: 10px;
+}
+.topic-card-info a{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--color);
+    margin: 0px 0px 4px;
+    line-height: 20px;
+}
+.topic-card-info a:hover{
+    color: var(--active-color);
+}
+.topic-card-info p{
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--color);
+    margin: 1px 0px;
+}
+.topic-card .pricing{
+    border-top: 1px solid var(--grey);
+    padding: 12px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.topic-card .pricing span:nth-child(1){
+    font-size: 14px;
+    font-weight: 600;
+}
+.topic-card .pricing span:nth-child(2){
+    font-size: 14px;
+    font-weight: 400;
+}
+.discussion-head{
+    padding: 10px 0px;
+}
+.discussion-head h2{
+    text-align: left;
+    color: var(--color);
+}
+.discussion-cards{
+    height: fit-content;
+    padding: 10px 0px;
+}
+.discussion{
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+    border-bottom: 1px solid var(--grey);
+}
+.discussion .left{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.topic-discussed{
+    padding: 0px 10px 0px;
+}
+.discussion .profile-img{
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+    border: 3px solid var(--active-color);
+    overflow: hidden;
+}
+.discussion .profile-img img{
+    width: 100%;
+}
+.topic-discussed a{
+    color: var(--color);
+    font-size: 20px;
+    font-weight: 600;
+}
+.topic-discussed a:hover{
+    color: var(--active-color);
+}
+.topic-discussed p{
+    color: var(--color);
+    font-size: 14px;
+    font-weight: 400;
+}
+/* == || DASHBOARD == */
+
+/* == SINGLE CHALLENGE == */
+.single-page, .single-pg-content{
+    height: fit-content;
+    width: 100%;
+}
+
+.spc-top{
+    height: fit-content;
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-image: url('../../../public/images/header.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.spc-top-overlay{
+    width: 100%;
+    padding: 20px;
+    background-color: #000000a9;
+}
+.competition-top span.compe-status{
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 500;
+}
+.competition-top .title-price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.competition-top .title{
+    color: var(--white);
+}
+.competition-top .title h1{
+    margin: 30px 0px 0px;
+    color: var(--white);
+    font-size: 24px;
+    font-weight: 700;
+}
+.competition-top .title p{
+    margin:10px 0px 30px;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 400;
+}
+.competition-top .pricing h3{
+    margin: 30px 0px 0px;
+    color: var(--white);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+.competition-top .pricing p{
+    margin:10px 0px 30px;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.competition-top .compe-in-info span{
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 500;
+}
+.competition-tabs-join-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid var(--light-grey);
+}
+.competition-tabs-join-btn .tabs {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.btn-tabbed-competition {
+    padding: 10px 20px;
+    background-color: var(--white);
+    cursor: pointer;
+    border: 0px;
+    border-bottom: 3px solid #00000000;
+    font-weight: 500;
+}
+.btn-tabbed-competition.active-tab-btn {
+    background-color: var(--light-grey);
+    border-bottom: 3px solid var(--active-color);
+}
+.btn-join button{
+    height: 48px;
+    width: fit-content;
+    padding: 2px 20px;
+    background-color: var(--active-color);
+    border: 0px;
+    border-radius: 1px;
+    color: var(--white);
+    font-weight: 500;
+}
+.spc-content > div {
+    display: none;
+}
+
+.spc-content .active-tab {
+    display: block;
+}
+
+/* CSS for the buttons and arrows */
+.spc-content .accordion-button {
+    background: none;
+    border: none;
+    padding: 10px;
+    margin: 0;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Align arrow to the right */
+    width: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--color);
+}
+
+.spc-content .accordion-arrow {
+    transition: transform 0.3s; /* Add transition for arrow rotation */
+}
+
+.spc-content .accordion-content {
+    padding: 20px;
+    display: none; /* Start as closed by default */
+}
+
+.spc-content .accordion-content.active-acc {
+    display: block; /* Show when active */
+}
+.overview-tab .overview-tab-container{
+    display: flex !important;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+}
+.left.tabs-nav{
+    width: 100%;
+    max-width: 700px;
+}
+.accordion-content p{
+    margin: 10px 0px;
+}
+.accordion-content ul{
+    margin-left: 20px;
+}
+.right.tabs-nav{
+    width: 280px;
+}
+.right.tabs-nav a{
+    display: block;
+    padding: 10px 20px;
+    width: 100%;
+    color: var(--color);
+    border-left: 3px solid #00000000;
+}
+.right.tabs-nav a:hover{
+    border-left: 3px solid var(--active-color);
+    background-color: var(--light-grey);
+}
+.leaderboard-tab{
+    padding: 20px;
+}
+.leaderboard-tab h2{
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--color);
+}
+.leaderboard-tab p{
+    margin: 0px 0px 20px;
+}
+.leaderboard-tab table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.leaderboard-tab th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+.leaderboard-tab th {
+    background-color: var(--color);
+    color: white;
+}
+
+.leaderboard-tab tr:nth-child(even) td {
+    background-color: var(--light-grey);
+}
+
+.leaderboard-tab tr:hover td {
+    background-color: var(--active-color);
+    color: white;
+}
+
+.leaderboard-tab .circle {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    border: 2px solid var(--active-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.leaderboard-tab .circle img{
+    width: 100%;
+}
+.rules-tab h2{
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--color);
+    margin: 10px 0px;
+}
+.rules-tab h3{
+    font-weight: 600;
+    color: var(--color);
+    margin: 10px 0px;
+}
+.rules-tab p{
+    font-weight: 400;
+    color: var(--color);
+    margin: 10px 0px;
+}
+/* == || SINGLE CHALLENGE == */
