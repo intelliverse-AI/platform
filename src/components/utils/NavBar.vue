@@ -3,9 +3,8 @@
             <nav>
                 <div class="nav-container container">
                     <div class="logo">
-                        <a href="index.html">
-                            <span class="logo-text-one">AfroAI</span>
-                            <span class="logo-text-two">Innovate</span>
+                        <a href="index.html" >
+                           <img src="/images/logo.png" alt="" class="h-10 w-full object-contain md:mr-20" >
                         </a>
                     </div>
                     <div class="links" id="links">

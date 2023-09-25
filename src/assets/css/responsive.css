@@ -1,9 +1,7 @@
 /* == RESPONSIVE == */
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 994px) {
-    nav .nav-container .logo img {
-      width: 90px;
-    }
+
   
     .links {
       height: 100vh;
@@ -133,17 +131,6 @@
   
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
-    nav {
-      height: 88px;
-    }
-  
-    nav .nav-container .logo img {
-      padding: 16px 32px;
-    }
-  
-    nav .nav-container .logo img {
-      width: 120px;
-    }
   
     nav .links {
       width: 100%;

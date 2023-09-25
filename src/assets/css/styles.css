@@ -107,28 +107,6 @@ nav .nav-container {
     justify-content: space-between;
 }
 
-nav .nav-container .logo {
-    width: fit-content;
-}
-
-nav .nav-container .logo a {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 28px;
-    font-weight: 700;
-    color: var(--color);
-    line-height: 34px;
-    margin-right: 32px;
-}
-
-nav .nav-container .logo a span.logo-text-one{
-    color: var(--active-color) !important;
-}
-
-nav .nav-container .logo a span.logo-text-one{
-    color: var(--color);
-}
 
 nav .links a {
     font-size: 20px;
