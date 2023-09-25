@@ -12,30 +12,21 @@
                             <span class="cancel-btn"><i class="fas fa-times"></i></span>
                         </div>
                         <div class="menu-item-lf">
-                            <button class="find-btn" onclick="location.href='dashboard.html'">Dashboard</button>
-                            <a href="dashboard.html">Models</a>
-                            <a href="dashboard.html">Datasets</a>
+                            <router-link to="/dashboard"><button class="find-btn" >AI Research Hub</button></router-link>
+                            <a href="dashboard.html">Partner Network</a>
+                            <a href="dashboard.html">Challenges</a>
+                            <a href="dashboard.html">Forums</a>
                         </div>
                         <div class="dropdown">
-                            <button class="dropbtn">For Newbies <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor" width="8" class="ml-2 h-3 w-3"><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"></path></svg></button>
+                            <button class="dropbtn flex items-center">For Reserchers<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor" width="8" class="ml-2 h-3 w-3"><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"></path></svg></button>
                             <div class="dropdown-content">
                             <div class="dropdown-extras">
                                 <div class="drop-extra">
-                                    <h4>FOR NEWBIES</h4>
+                                    <h4>Tools and Frameworks</h4>
                                     <div class="drop-extra-links">
-                                        <a href="#">Marketing services</a>
-                                        <a href="#">SEO</a>
-                                        <a href="#">Copywriting</a>
-                                        <a href="#">Social media management</a>
-                                        <a href="#">Google Ads</a>
-                                        <a href="#">Legal board</a>
-                                    </div>
-                                </div>
-                                <div class="drop-extra">
-                                    <h4>MEMBERSHIP</h4>
-                                    <div class="drop-extra-links">
-                                        <a href="#">How it works</a>
-                                        <a href="#">Pricing</a>
+                                        <a href="#">Data Sets</a>
+                                        <a href="#">Code</a>
+                                        <a href="#">Forums</a>
                                         <div class="drop-extras-btns">
                                             <button class="login">Login</button>
                                             <span>or</span>
