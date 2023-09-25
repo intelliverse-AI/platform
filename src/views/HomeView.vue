@@ -6,10 +6,10 @@
                 <div class="banner-container container">
                     <div class="bn-text">
                         <div class="bn-txt-holder">
-                            <h1>Africa's Top 1% minds bringing, <span id="changing-text"></span></h1>
-                            <p>A hub and ecosystem that bridges the gap between Africa's brightest minds and the global AI industry, focusing on developing AI solutions tailored for Africa's unique challenges.</p>
+                            <h1>Pioneering <span  >Artifical Intelligence</span>  Research and Innnovation accross Africa</h1>
+                            <p>Join a collaborative research hub and innovation ecosystem focusing on developing AI solutions tailored for Africa's unique challenges.</p>
                             <div class="bn-btns">
-                                <button class="find-btn">Be Part</button>
+                                <button class="find-btn">Join Intelliverse</button>
                             </div>
                         </div>
                     </div>
