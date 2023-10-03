@@ -52,7 +52,7 @@ html {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: var(--active-color);
+    background: var(--primary);
 }
 
 /* Animation CSS */
@@ -133,7 +133,7 @@ nav .links button.find-btn{
 
 nav .links a.active,
 nav .links a:hover {
-    color: var(--active-color);
+    color: var(--orange);
     transition: all ease 100ms;
 }
 
@@ -204,7 +204,7 @@ nav .links a:hover {
 }
 .drop-extras-btns button.register{
     color: var(--white);
-    background-color: var(--active-color);
+    background-color: var(--orange);
 }
 .menu-bar {
     padding: 5px;
@@ -577,7 +577,7 @@ section.hiworks{
 
 /* == Newsletter == */
 section.newsletter{
-    background-color: var(--active-color);
+    background-color: var(--primary);
     padding: 60px 0px;
 }
 
@@ -646,7 +646,7 @@ form.newsletter button{
     width: 200px;
     padding: 0px 20px;
     border: 0px;
-    background-color: var(--color);
+    background-color: var(--orange);
     color: var(--white);
     border-radius: 1px;
     font-size: 14px;
@@ -659,7 +659,7 @@ form.newsletter button{
 footer{
     width: 100%;
     padding: 60px 0px;
-    background-color: var(--background-color);
+    background-color: var(--black);
 }
 .ft-holder{
     width: 100%;

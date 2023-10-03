@@ -3,8 +3,8 @@
             <div class="ft-holder container">
                 <div class="top-ft">
                     <div class="ft-column social">
-                        <h1>Lazana</h1>
-                        <p>Find the right lawyer</p>
+                       <img src="/images/logo-white.png" alt="" class="w-40">
+                        <p class="-mt-10">Join a collaborative research hub and innovation ecosystem focusing on developing AI solutions tailored for Africa's unique challenges.</p>
                         <div class="social-icons">
                             <a href="#"><i class="fab fa-facebook"></i></a>
                             <a href="#"><i class="fab fa-twitter"></i></a>
@@ -45,7 +45,7 @@
                 </div>
                 <div class="bottom-ft">
                     <div class="copyright">
-                        <p>© AfroAI Innovate Limited 2023. All rights reserved.</p>
+                        <p>© Intelliverse 2023. All rights reserved.</p>
                     </div>
                     <div class="ft-legal-links">
                         <a href="#">Privacy Policy</a>
