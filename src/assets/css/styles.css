@@ -32,6 +32,9 @@ html {
     --light-grey: #f9f9f9;
     --white: #ffffff;
     --background-color: #1f2d41;
+    --orange:#E58E04;
+    --primary:#060640;
+    --secondary:#ECF9FF;
 }
 
 /* == Primary theme colors == */
@@ -125,7 +128,7 @@ nav .links button.find-btn{
     font-weight: 500;
     border: 0px;
     color: var(--white);
-    background-color: var(--active-color);
+    background-color: var(--orange);
 }
 
 nav .links a.active,
@@ -211,41 +214,42 @@ nav .links a:hover {
 main{
     height: fit-content;
     width: 100%;
+    
 }
 
 /* == Banner == */
 section.banner{
     min-height: 576px;
     width: 100%;
+   
 }
 .banner-container{
     height: 100%;
     display: flex;
-    align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 .bn-text{
-    min-height: 576px;
     width: 100%;
     max-width: 790px;
     min-width: 280px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    padding-top: 0px;
 }
 .bn-txt-holder{
     height: fit-content;
     width: 100%;
 }
 .bn-txt-holder h1{
-    font-size: 58px;
+    font-size: 48px;
     font-weight: 600;
     line-height: 68px;
     color: var(--color);
 }
 .bn-txt-holder h1 span{
-    color: var(--active-color) !important;
+    color: var(--orange) !important;
 }
 .bn-txt-holder p{
     font-size: 20px;
@@ -272,7 +276,7 @@ section.banner{
     height: 64px;
     width: 210px;
     color: var(--white);
-    background-color: var(--active-color);
+    background-color: var(--primary);
     border: 0px;
     border-radius: 10px;
     margin: 10px 0px;
@@ -290,8 +294,7 @@ section.community-talent{
 }
 .community-talent-contain{
     border-radius: 40px;
-    background-color: var(--background-color);
-    padding: 20px;
+    background-color: var(--primary);
 }
 
 .ctc-head h2{
@@ -307,7 +310,6 @@ section.community-talent{
     margin: 10px 0px 20px;
 }
 .ctc-content {
-    min-height: 380px;
     padding: 10px 0px 10px;
     display: flex;
     justify-content: space-evenly;
@@ -316,7 +318,6 @@ section.community-talent{
 }
 
 .ctc-card {
-    height: 304px;
     width: 260px;
     padding: 20px;
     transition: transform 0.3s, padding 0.3s;
@@ -329,13 +330,61 @@ section.community-talent{
 .ctc-card h3 {
     margin: 10px 0;
     color: var(--white);
+    font-weight: 700;
+    font-size: 24px;
 }
 
 .hidden-paragraph {
     margin-top: 10px;
     color: var(--grey);
-}
+    font-weight: 500;
+    font-size: 24px;
 
+}
+.sectors h2 {
+    margin: 10px 0;
+    color: var(--primary);
+    font-weight: 700;
+    font-size: 28px;
+}
+.sectors h1 {
+    margin: 20px 80px;
+    color: var(--primary);
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+}
+.sectors .card{
+display: flex;
+padding: 49px 47px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 20px;
+border: 1px solid #FFF;
+background: #FFF;
+box-shadow: 0px 10px 70px 0px rgba(2, 2, 38, 0.06);
+}
+.sectors button{
+    background-color: var(--primary);
+}
+.global h1 {
+    margin: 20px 80px;
+    color: var(--primary);
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+}
+.global p {
+    margin: 20px 80px;
+    color: var(--Paragraph, #9090A7);
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+}
 /* == || COMMUNITY TALENT == */
 
 /* == UPDATES == */
