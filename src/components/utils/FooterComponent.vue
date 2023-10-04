@@ -15,22 +15,21 @@
                         <h2>Product</h2>
                         <ul>
                             <li><a href="#">Challenges</a></li>
-                            <li><a href="#">Datasets</a></li>
-                            <li><a href="#">Models</a></li>
-                            <li><a href="#">Notebooks</a></li>
-                            <li><a href="#">Learn</a></li>
-                            <li><a href="#">Discussion</a></li>
+                            <li><a href="#">Research Papers</a></li>
+                            <li><a href="#">Data Models</a></li>
+                            <li><a href="#">Forums</a></li>
+                           
                         </ul>
                     </div>
                     <div class="ft-column link">
                         <h2>Documentation</h2>
                         <ul>
-                            <li><a href="#">Challenges</a></li>
-                            <li><a href="#">Datasets</a></li>
-                            <li><a href="#">Models</a></li>
-                            <li><a href="#">Notebooks</a></li>
-                            <li><a href="#">Learn</a></li>
                             <li><a href="#">Public API</a></li>
+                            <li><a href="#">Methodology</a></li>
+                            <li><a href="#">Public Participation</a></li>
+                            <li><a href="#">Notebooks</a></li>
+                            <li><a href="#">Launch Weekly</a></li>
+                            
                         </ul>
                     </div>
                     <div class="ft-column link">
@@ -45,7 +44,7 @@
                 </div>
                 <div class="bottom-ft">
                     <div class="copyright">
-                        <p>© Intelliverse 2023. All rights reserved.</p>
+                        <p>© Intelliverse {{ new Date().getFullYear() }}. All rights reserved.</p>
                     </div>
                     <div class="ft-legal-links">
                         <a href="#">Privacy Policy</a>

@@ -2,11 +2,11 @@
   <div class="bg-[#ECF9FF]">
     <nav-bar></nav-bar>
     <main class="container mx-auto px-5 lg:px-28">
-      <section class="banner flex flex-col-reverse md:flex-row">
+      <section class="banner flex flex-col md:flex-row">
         <div class="banner-container basis-2/2 md:basis=1/3">
           <div class="bn-text mt-10">
             <div class="bn-txt-holder">
-              <h1>
+              <h1 class="text-[32px] md:text-[48px]">
                 Pioneering <span>Artifical Intelligence</span> Research and
                 Innovation accross Africa
               </h1>
@@ -71,8 +71,8 @@
           </div>
         </div>
       </section>
-      <section class="sectors py-10">
-        <h1 class="mx-20" >Take Part in AI Research Projects Shaping the Future of African Continent</h1>
+      <section class="sectors py-10" id="challenges">
+        <h1 class="md:mx-20 md:my-5">Take Part in AI Research Projects Shaping the Future of African Continent</h1>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
           <div class="rounded-lg p-10 card">
             <h2>AI-Driven Agricultural Optimization</h2>
@@ -245,16 +245,35 @@
           </div>
         </div>
       </section>
-      <section class="py-10 global">
-        <h1>Global Enterprise Network</h1>
-        <p> Through strategic partnerships and a deep understanding of the African narrative, Intelliverse aims to transform challenges into opportunities, ensuring that the African continent can harness the true power of Artificial Intellignce in solving the most pressing challenges</p>
+      <section class="py-10 global" id="partners">
+        <h1 class="md:mx-20 md:my-5">Global Enterprise Network</h1>
+        <p class="md:mx-20 md:my-5"> Through strategic partnerships and a deep understanding of the African narrative, Intelliverse aims to transform challenges into opportunities, ensuring that the African continent can harness the true power of Artificial Intellignce in solving the most pressing challenges. Private enterprises and public institutions
+          can join the platform to host AI research challenges to tackled by our ever growing community of researchers
+        </p>
+       <div class="flex items-center w-full justify-center">
+        <button class="bg-[#1f2d41] hover:bg-[#E58E04] text-white uppercase flex items-center gap-3 py-2 px-5 rounded-lg">
+              Become a Partner
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="14"
+                viewBox="0 0 20 14"
+                fill="none"
+              >
+                <path
+                  d="M13 14L11.575 12.6L16.175 8H0V6H16.175L11.6 1.4L13 0L20 7L13 14Z"
+                  fill="#FCFCFC"
+                />
+              </svg>
+            </button>
+       </div>
         <img src="/images/global.png" alt="">
       </section>
 
 
     </main>
     <section class="newsletter">
-        <div class="newsletter-contain container">
+        <div class="newsletter-contain container flex flex-col md:flex-row items-center justify-evenly ">
           <div class="text">
             <div class="img">
               <i class="fa-brands fa-telegram"></i>

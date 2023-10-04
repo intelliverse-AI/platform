@@ -130,6 +130,15 @@ nav .links button.find-btn{
     color: var(--white);
     background-color: var(--orange);
 }
+nav .links button.find-btn:hover{
+    height: 38px;
+    width: 148px;
+    border-radius: 10px;
+    font-weight: 500;
+    border: 0px;
+    color: var(--white);
+    background-color: var(--primary);
+}
 
 nav .links a.active,
 nav .links a:hover {
@@ -194,8 +203,8 @@ nav .links a:hover {
     border-radius: 10px;
 }
 .drop-extras-btns button.login{
-    color: var(--active-color);
-    background-color: var(--light-grey);
+    color: var(--white);
+    background-color: var(--primary);
 }
 .drop-extras-btns span{
     padding: 10px;
@@ -243,7 +252,6 @@ section.banner{
     width: 100%;
 }
 .bn-txt-holder h1{
-    font-size: 48px;
     font-weight: 600;
     line-height: 68px;
     color: var(--color);
@@ -277,6 +285,17 @@ section.banner{
     width: 210px;
     color: var(--white);
     background-color: var(--primary);
+    border: 0px;
+    border-radius: 10px;
+    margin: 10px 0px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.bn-btns button.find-btn:hover{
+    height: 64px;
+    width: 210px;
+    color: var(--white);
+    background-color: var(--orange);
     border: 0px;
     border-radius: 10px;
     margin: 10px 0px;
@@ -348,7 +367,6 @@ section.community-talent{
     font-size: 28px;
 }
 .sectors h1 {
-    margin: 20px 80px;
     color: var(--primary);
     font-weight: 700;
     font-size: 40px;
@@ -370,14 +388,12 @@ box-shadow: 0px 10px 70px 0px rgba(2, 2, 38, 0.06);
     background-color: var(--primary);
 }
 .global h1 {
-    margin: 20px 80px;
     color: var(--primary);
     font-weight: 700;
     font-size: 40px;
     text-align: center;
 }
 .global p {
-    margin: 20px 80px;
     color: var(--Paragraph, #9090A7);
 text-align: center;
 font-size: 16px;
@@ -581,11 +597,7 @@ section.newsletter{
     padding: 60px 0px;
 }
 
-.newsletter-contain{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
+
 
 .newsletter-contain .text{
     height: fit-content;

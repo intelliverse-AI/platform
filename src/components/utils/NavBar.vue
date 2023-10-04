@@ -13,9 +13,9 @@
                         </div>
                         <div class="menu-item-lf">
                             <router-link to="/dashboard"><button class="find-btn" >AI Research Hub</button></router-link>
-                            <a href="dashboard.html">Partner Network</a>
-                            <a href="dashboard.html">Challenges</a>
-                            <a href="dashboard.html">Forums</a>
+                            <a href="/#partners">Partner Network</a>
+                            <a href="/#challenges">Challenges</a>
+                            <a href="/register">Forums</a>
                         </div>
                         <div class="dropdown">
                             <button class="dropbtn flex items-center">For Reserchers<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor" width="8" class="ml-2 h-3 w-3"><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"></path></svg></button>
