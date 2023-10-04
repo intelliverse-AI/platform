@@ -260,7 +260,7 @@
               <i class="fa-brands fa-telegram"></i>
             </div>
             <div class="news-txt">
-              <span>WANTS TO GET LATEST UPDATES! SIGN UP FOR FREE.</span>
+              <span>WANTS TO GET LATEST AI RESEARCH UPDATES! SIGN UP FOR FREE.</span>
               <h1>SUBSCRIBE NEWSLETTER !</h1>
             </div>
           </div>

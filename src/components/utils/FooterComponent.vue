@@ -6,9 +6,9 @@
                        <img src="/images/logo-white.png" alt="" class="w-40">
                         <p class="-mt-10">Join a collaborative research hub and innovation ecosystem focusing on developing AI solutions tailored for Africa's unique challenges.</p>
                         <div class="social-icons">
-                            <a href="#"><i class="fab fa-facebook"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/company/intelliverse-ai-lab"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://twitter.com/Intelliverse_AI"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.linkedin.com/company/intelliverse-ai-lab"><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                     <div class="ft-column link">
