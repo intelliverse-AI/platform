@@ -7,8 +7,8 @@
           <div class="bn-text mt-10">
             <div class="bn-txt-holder">
               <h1 class="text-[32px] md:text-[48px]">
-                Pioneering <span>Artifical Intelligence</span> Research and
-                Innovation accross Africa
+                Pioneering Collaborative <span>Artifical Intelligence</span> Research and
+                Innovation across Africa
               </h1>
               <p>
                 Join a collaborative research hub and innovation ecosystem
