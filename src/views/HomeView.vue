@@ -346,7 +346,7 @@
         <div class="form">
           <form class="newsletter" @submit.prevent="handleSubmit">
             <input type="text" placeholder="Enter Email Address" v-model="email"/>
-            <button type="submit">Enter</button>
+            <button type="submit">{{ loading?'loading':'Subscribe' }}</button>
           </form>
         </div>
       </div>
