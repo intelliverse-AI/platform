@@ -192,7 +192,6 @@ nav .links a:hover {
 .drop-extras-btns{
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
 }
 .drop-extras-btns button{
     border: 0px;
@@ -756,3 +755,121 @@ footer{
     color: var(--grey);
 }
 /* == || Footer == */
+
+/* == || Register == */
+.auth img{
+    height: 80vh;
+    object-fit: contain;
+}
+
+.login-contain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.register-form{
+    width: 100%;
+    max-width: 540px;
+    min-width: 280px;
+}
+.register-form h1{
+    font-size: 40px;
+    color: var(--primary);
+    margin: 0px 0px 20px;
+    text-align: center;
+    font-weight: 700;
+}
+.register-form button.btn-access{
+    height: 50px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 5px 0px 5px;
+    text-align: center;
+    border: 0px;
+    outline: none;
+    border-radius: 6px;
+}
+.register-form button.btn-access:nth-child(2){
+    background-color: var(--black);
+    color: var(--white);
+}
+.register-form button.btn-access:nth-child(3){
+    background-color: var(--active-color);
+    color: var(--white);
+}
+.register-form p{
+    text-align: center;
+    margin: 10px 0px;
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--color);
+}
+.register-form form{
+    height: fit-content;
+    padding: 5px 0px;
+}
+.register-form form input{
+    height: 50px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--black);
+    margin: 5px 0px;
+    padding: 4px 20px;
+    border: 1.5px solid var(--light-grey);
+    outline: none;
+    border-radius: 6px;
+}
+ .register-form form input:nth-child(3){
+    margin-bottom: 30px;
+ }
+.register-form form a{
+    margin: 30px 0px 0px !important;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--black);
+    padding: 8px 0px;
+}
+.register-form form a:hover{
+    color: var(--active-color);
+}
+.register-form form button{
+    height: 50px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0px;
+    text-align: center;
+    border: 0px;
+    outline: none;
+    border-radius: 6px;
+    background-color: var(--primary);
+    color: var(--white);
+}
+.register-form form button:hover{
+    height: 50px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0px;
+    text-align: center;
+    border: 0px;
+    outline: none;
+    border-radius: 6px;
+    background-color: var(--orange);
+    color: var(--white);
+}
+.register-form p.policy{
+    text-align: center;
+    margin: 10px 0px;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--color);
+}
+.register-form p a{
+    color: var(--color);
+}
+.register-form p a:hover{
+    color: var(--orange);
+}

@@ -25,6 +25,16 @@ const routes = [
     name: 'Dashboard',
     component: () => import(/* webpackChunkName: "about" */ '../views/DashboardView.vue')
   },
+  {
+    path: '/register',
+    name: 'Register',
+    component: () => import(/* webpackChunkName: "register" */ '../views/RegisterView.vue')
+  },
+  {
+    path: '/requestPartnership',
+    name: 'RequestPartnership',
+    component: () => import(/* webpackChunkName: "register" */ '../views/PartnerSignup.vue')
+  },
 
 ]
 

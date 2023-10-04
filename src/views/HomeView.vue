@@ -16,7 +16,7 @@
                 challenges.
               </p>
               <div class="bn-btns">
-                <button class="find-btn">Join Intelliverse</button>
+               <router-link to="/register"> <button class="find-btn">Join Intelliverse</button></router-link>
               </div>
             </div>
           </div>
@@ -90,7 +90,8 @@
               yields, reduce resource wastage, and enhance food security across
               the continent
             </p>
-            <button class="find-btn text-white uppercase flex items-center gap-3 py-2 px-5 rounded-lg">
+     <router-link to="register">
+      <button class="find-btn text-white uppercase flex items-center gap-3 py-2 px-5 rounded-lg">
               Join The Hub
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -105,6 +106,7 @@
                 />
               </svg>
             </button>
+     </router-link>
           </div>
           <div class="rounded-lg p-10 card">
             <h2>Remote Healthcare Diagnostics</h2>
@@ -117,7 +119,8 @@
             <p>
               <span class="text-[#E58E04] mr-2">Impact:</span>Provide accessible healthcare solutions to remote areas, reducing the burden on urban healthcare centers and providing timely interventions.
             </p>
-            <button class="find-btn text-white uppercase flex items-center gap-3 py-2 px-5 rounded-lg">
+            <router-link to="register">
+      <button class="find-btn text-white uppercase flex items-center gap-3 py-2 px-5 rounded-lg">
               Join The Hub
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -132,6 +135,7 @@
                 />
               </svg>
             </button>
+     </router-link>
           </div>
           <div class="rounded-lg p-10 card">
             <h2>AI-Powered Educational Platforms</h2>
@@ -145,7 +149,8 @@
               <span class="text-[#E58E04] mr-2">Impact:</span>Enhance the quality of education, especially in underserved regions, and reduce the educational gap.
 
             </p>
-            <button class="find-btn text-white uppercase flex items-center gap-3 py-2 px-5 rounded-lg">
+            <router-link to="register">
+      <button class="find-btn text-white uppercase flex items-center gap-3 py-2 px-5 rounded-lg">
               Join The Hub
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -160,6 +165,7 @@
                 />
               </svg>
             </button>
+     </router-link>
           </div>
           <div class="rounded-lg p-10 card">
             <h2>Smart City Solutions for Urban Development</h2>
@@ -173,7 +179,8 @@
               <span class="text-[#E58E04] mr-2">Impact:</span>Reduce congestion, improve public transportation efficiency, and enhance the overall quality of urban life.
 
             </p>
-            <button class="find-btn text-white uppercase flex items-center gap-3 py-2 px-5 rounded-lg">
+            <router-link to="register">
+      <button class="find-btn text-white uppercase flex items-center gap-3 py-2 px-5 rounded-lg">
               Join The Hub
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -188,6 +195,7 @@
                 />
               </svg>
             </button>
+     </router-link>
           </div>
           <div class="rounded-lg p-10 card">
             <h2>Financial Inclusion Initiatives</h2>
@@ -200,7 +208,8 @@
             <p>
               <span class="text-[#E58E04] mr-2">Impact:</span>Boost economic growth by providing financial services to underserved communities, fostering entrepreneurship, and enhancing financial literacy.
             </p>
-            <button class="find-btn text-white uppercase flex items-center gap-3 py-2 px-5 rounded-lg">
+            <router-link to="register">
+      <button class="find-btn text-white uppercase flex items-center gap-3 py-2 px-5 rounded-lg">
               Join The Hub
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -215,6 +224,7 @@
                 />
               </svg>
             </button>
+     </router-link>
           </div>
           <div class="rounded-lg p-10 card">
             <h2>AI powered E-Governance and Public Feedback Systems</h2>
@@ -227,7 +237,8 @@
             <p>
               <span class="text-[#E58E04] mr-2">Impact:</span>Enhance transparency, improve public services, and foster a sense of community involvement.
             </p>
-            <button class="find-btn text-white uppercase flex items-center gap-3 py-2 px-5 rounded-lg">
+            <router-link to="register">
+      <button class="find-btn text-white uppercase flex items-center gap-3 py-2 px-5 rounded-lg">
               Join The Hub
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -242,6 +253,7 @@
                 />
               </svg>
             </button>
+     </router-link>
           </div>
         </div>
       </section>
@@ -251,7 +263,8 @@
           can join the platform to host AI research challenges to tackled by our ever growing community of researchers
         </p>
        <div class="flex items-center w-full justify-center">
-        <button class="bg-[#1f2d41] hover:bg-[#E58E04] text-white uppercase flex items-center gap-3 py-2 px-5 rounded-lg">
+        <router-link to="/requestPartnership">
+          <button class="bg-[#1f2d41] hover:bg-[#E58E04] text-white uppercase flex items-center gap-3 py-2 px-5 rounded-lg">
               Become a Partner
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -266,6 +279,7 @@
                 />
               </svg>
             </button>
+        </router-link>
        </div>
         <img src="/images/global.png" alt="">
       </section>
