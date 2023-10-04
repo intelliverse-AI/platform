@@ -358,6 +358,7 @@
  <script>
 import NavBar from "@/components/utils/NavBar.vue";
 import FooterComponent from "@/components/utils/FooterComponent.vue";
+import { mapState } from 'vuex';
 export default {
   data() {
     return {
