@@ -7,9 +7,9 @@
                            <img src="/images/logo.png" alt="" class="h-10 w-full object-contain md:mr-20" >
                         </a>
                     </div>
-                    <div class="links" id="links">
-                        <div class="cancel">
-                            <span class="cancel-btn"><i class="fas fa-times"></i></span>
+                    <div :class="{'links block active':showMobilenav,'links hidden hide':!showMobilenav }" id="links">
+                        <div class="cancel"  @click="toggleNav">
+                            <span :class="{'cancel-btn block active':showMobilenav,'cancel-btn hidden hide':!showMobilenav }"><i class="fas fa-times"></i></span>
                         </div>
                         <div class="menu-item-lf">
                             <router-link to="/dashboard"><button class="find-btn" >AI Research Hub</button></router-link>
@@ -38,8 +38,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="menu-bar">
-                        <span class="menu-btn">
+                    <div class="menu-bar"  @click="toggleNav">
+                        <span :class="{'menu-btn hidden':showMobilenav,'menu-btn block':!showMobilenav }">
                             <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42" fill="none">
                                 <g clip-path="url(#clip0_302_221)">
                                     <path fill-rule="evenodd" clip-rule="evenodd"
@@ -61,6 +61,18 @@
 
 <script>
 export default {
+    data(){
+        return{
+            showMobilenav:false,
+
+        }
+    },
+    methods:{
+        toggleNav(){
+            this.showMobilenav=!this.showMobilenav
+            console.log(this.showMobilenav);
+        }
+    }
 
 }
 </script>
