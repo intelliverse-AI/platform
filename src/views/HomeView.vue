@@ -260,7 +260,7 @@
       <section class="py-10 global" id="partners">
         <h1 class="md:mx-20 md:my-5">Global Enterprise Network</h1>
         <p class="md:mx-20 md:my-5"> Through strategic partnerships and a deep understanding of the African narrative, Intelliverse aims to transform challenges into opportunities, ensuring that the African continent can harness the true power of Artificial Intellignce in solving the most pressing challenges. Private enterprises and public institutions
-          can join the platform to host AI research challenges to tackled by our ever growing community of researchers
+          can join the platform to host AI research challenges to be tackled by our ever growing community of AI researchers
         </p>
        <div class="flex items-center w-full justify-center">
         <router-link to="/requestPartnership">

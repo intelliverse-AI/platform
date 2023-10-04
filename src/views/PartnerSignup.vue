@@ -14,7 +14,7 @@
                           
                            <button type="submit">Request Access</button>
                        </form>
-                         <p>Would you like to be an AI research fellow? <a href="/requestPartnership">Request Access</a></p>
+                         <p>Would you like to be an AI research fellow? <a href="/register">Request Access</a></p>
                        <p class="policy">By signing up you will gain access to Intelliverse AI research network .</p>
                        <br>
                      
