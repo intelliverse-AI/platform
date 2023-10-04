@@ -12,7 +12,7 @@
                             <input type="email" placeholder="Email" v-model="email">
                             <input type="text" placeholder="Linkedin Profile" v-model="linkedin">
                            
-                            <button type="submit">Request Access</button>
+                            <button type="submit">{{ !loading?'Request Access':"Loading" }}</button>
                         </form>
                           <p>Would you like to be A research Partner? <a href="/requestPartnership">Request Access</a></p>
                         <p class="policy">By signing up you will gain access to the beta version of Intellivere AI Research Labs.</p>
@@ -26,6 +26,7 @@
 </template>
 
 <script>
+import { mapState } from 'vuex'
 export default {
   data(){
     return{
@@ -33,6 +34,9 @@ export default {
       name:"",
       linkedin:""
     }
+  },
+  computed: {
+    ...mapState(["loading"]),
   },
   methods:{
     handleSubmit(){

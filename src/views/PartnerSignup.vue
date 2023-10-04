@@ -12,7 +12,7 @@
                            <input type="email" placeholder="Email" v-model="email">
                            <input type="text" placeholder="Industry" v-model="industry">
                           
-                           <button type="submit">Request Access</button>
+                           <button type="submit">{{ !loading?'Request Access':"Loading" }}</button>
                        </form>
                          <p>Would you like to be an AI research fellow? <a href="/register">Request Access</a></p>
                        <p class="policy">By signing up you will gain access to Intelliverse AI research network .</p>
@@ -26,6 +26,7 @@
 </template>
 
 <script>
+import { mapState } from 'vuex'
 export default {
   data(){
     return{
@@ -33,6 +34,9 @@ export default {
       company:"",
       industry:""
     }
+  },
+  computed: {
+    ...mapState(["loading"]),
   },
   methods:{
     handleSubmit(){
