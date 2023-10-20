@@ -314,6 +314,255 @@
           </div>
         </div>
       </section>
+      <section class="subscription">
+        <div class="contact-overlay" id="contactOverlay">
+                    <div class="contact-overlay-content">
+                        <span class="closebtn" title="Close Overlay" onclick="document.getElementById('contactOverlay').style.display = 'none';"><i class="fas fa-times"></i></span>
+                        <div class="form" id="loading">
+                            <div class="form-head">
+                                <h1>Buy Ticket</h1>
+                            </div>
+                            <form>
+                                <label for="">Name</label>
+                                <input type="text" placeholder="Enter Your Name">
+                                <label for="">Email</label>
+                                <input type="email" placeholder="Enter Your Email">
+                                <label for="">No of Tickets</label>
+                                <input type="number" placeholder="Enter No of Tickets">
+                                <button>Buy Ticket</button>
+                            </form>
+                        </div>
+                        <div class="sent-message" id="load">
+                            <div class="message-loader" id="spinner">
+                                <div class="loader"></div>
+                            </div>
+                            <div class="sent-alert" id="message">
+                                <div class="icon"><i class="fas fa-check"></i></div>
+                                <p>Message Sent</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        <div class="subscription-container container">
+            <div class="subscription-head">
+                <p>Tickets</p>
+                <h1>Book A Spot</h1>
+            </div>
+            <div class="subscription-content">
+                <div class="subscription-card">
+                    <p>Silver</p>
+                    <h1>$1000</h1>
+                    <div class="features">
+                        <div class="feature">
+                            <div class="check">
+                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="fi:check">
+                                    <path id="Vector" d="M8.33317 2.5L3.74984 7.08333L1.6665 5" stroke="#E58E04" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                </svg>
+                            </div>
+                        <div class="text">Speaker Key Note</div>
+                        </div>
+                        <div class="feature">
+                            <div class="check">
+                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="fi:check">
+                                    <path id="Vector" d="M8.33317 2.5L3.74984 7.08333L1.6665 5" stroke="#E58E04" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                </svg>
+                            </div>
+                        <div class="text">Virtual Exhibition Booth</div>
+                        </div>
+                        <div class="feature">
+                            <div class="check">
+                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="fi:check">
+                                    <path id="Vector" d="M8.33317 2.5L3.74984 7.08333L1.6665 5" stroke="#E58E04" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                </svg>
+                            </div>
+                        <div class="text">1 day hackathon</div>
+                        </div>
+                        <div class="feature">
+                            <div class="check">
+                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="fi:check">
+                                    <path id="Vector" d="M8.33317 2.5L3.74984 7.08333L1.6665 5" stroke="#E58E04" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                </svg>
+                            </div>
+                        <div class="text">Netwroking Opportunities</div>
+                        </div>
+                        <div class="feature">
+                            <div class="check">
+                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="fi:check">
+                                    <path id="Vector" d="M8.33317 2.5L3.74984 7.08333L1.6665 5" stroke="#E58E04" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                </svg>
+                            </div>
+                        <div class="text">Social Media Promotion</div>
+                        </div>
+                    </div>
+                    <button class="btn-ticket" onclick="document.getElementById('contactOverlay').style.display = 'block';">GET YOUR TICKET</button>
+                </div>
+                <div class="subscription-card">
+                    <p>Platinum</p>
+                    <h1>$2500</h1>
+                    <div class="features">
+                        <div class="feature">
+                            <div class="check">
+                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="fi:check">
+                                    <path id="Vector" d="M8.33317 2.5L3.74984 7.08333L1.6665 5" stroke="#E58E04" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                </svg>
+                            </div>
+                        <div class="text">Speaker Key Note</div>
+                        </div>
+                        <div class="feature">
+                            <div class="check">
+                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="fi:check">
+                                    <path id="Vector" d="M8.33317 2.5L3.74984 7.08333L1.6665 5" stroke="#E58E04" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                </svg>
+                            </div>
+                        <div class="text">Virtual Exhibition Booth</div>
+                        </div>
+                        <div class="feature">
+                            <div class="check">
+                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="fi:check">
+                                    <path id="Vector" d="M8.33317 2.5L3.74984 7.08333L1.6665 5" stroke="#E58E04" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="text">Dedicated Sponsor Session</div>
+                        </div>
+                        <div class="feature">
+                            <div class="check">
+                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="fi:check">
+                                    <path id="Vector" d="M8.33317 2.5L3.74984 7.08333L1.6665 5" stroke="#E58E04" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                </svg>
+                            </div>
+                        <div class="text">Two Day hackathon</div>
+                        </div>
+                        <div class="feature">
+                            <div class="check">
+                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="fi:check">
+                                    <path id="Vector" d="M8.33317 2.5L3.74984 7.08333L1.6665 5" stroke="#E58E04" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                </svg>
+                            </div>
+                        <div class="text">Networking Opportunities</div>
+                        </div>
+                        <div class="feature">
+                            <div class="check">
+                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="fi:check">
+                                    <path id="Vector" d="M8.33317 2.5L3.74984 7.08333L1.6665 5" stroke="#E58E04" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                </svg>
+                            </div>
+                        <div class="text">Custom Content</div>
+                        </div>
+                        <div class="feature">
+                            <div class="check">
+                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="fi:check">
+                                    <path id="Vector" d="M8.33317 2.5L3.74984 7.08333L1.6665 5" stroke="#E58E04" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                </svg>
+                            </div>
+                        <div class="text">Attendee Data</div>
+                        </div>
+                        <div class="feature">
+                            <div class="check">
+                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="fi:check">
+                                    <path id="Vector" d="M8.33317 2.5L3.74984 7.08333L1.6665 5" stroke="#E58E04" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                </svg>
+                            </div>
+                        <div class="text">Social Media Promotion</div>
+                        </div>
+                    </div>
+                    <button class="btn-ticket" onclick="document.getElementById('contactOverlay').style.display = 'block';">GET YOUR TICKET</button>
+                </div>
+                <div class="subscription-card">
+                    <p>Gold</p>
+                    <h1>$1500</h1>
+                    <div class="features">
+                        <div class="feature">
+                            <div class="check">
+                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="fi:check">
+                                    <path id="Vector" d="M8.33317 2.5L3.74984 7.08333L1.6665 5" stroke="#E58E04" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                </svg>
+                            </div>
+                        <div class="text">Prominent Branding</div>
+                        </div>
+                        <div class="feature">
+                            <div class="check">
+                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="fi:check">
+                                    <path id="Vector" d="M8.33317 2.5L3.74984 7.08333L1.6665 5" stroke="#E58E04" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                </svg>
+                            </div>
+                        <div class="text">Virtual Exhibition Booth</div>
+                        </div>
+                        <div class="feature">
+                            <div class="check">
+                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="fi:check">
+                                    <path id="Vector" d="M8.33317 2.5L3.74984 7.08333L1.6665 5" stroke="#E58E04" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                </svg>
+                            </div>
+                        <div class="text">Sponsored Session</div>
+                        </div>
+                        <div class="feature">
+                            <div class="check">
+                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="fi:check">
+                                    <path id="Vector" d="M8.33317 2.5L3.74984 7.08333L1.6665 5" stroke="#E58E04" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                </svg>
+                            </div>
+                        <div class="text">Two Day Hackathon</div>
+                        </div>
+                        <div class="feature">
+                            <div class="check">
+                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="fi:check">
+                                    <path id="Vector" d="M8.33317 2.5L3.74984 7.08333L1.6665 5" stroke="#E58E04" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                </svg>
+                            </div>
+                        <div class="text">Networking Opportinities</div>
+                        </div>
+                        <div class="feature">
+                            <div class="check">
+                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="fi:check">
+                                    <path id="Vector" d="M8.33317 2.5L3.74984 7.08333L1.6665 5" stroke="#E58E04" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                </svg>
+                            </div>
+                        <div class="text">Social Media Promotion</div>
+                        </div>
+                    </div>
+                    <button class="btn-ticket" onclick="document.getElementById('contactOverlay').style.display = 'block';">GET YOUR TICKET</button>
+                </div>
+            </div>
+        </div>
+    </section>
     </div>
     <footer-component></footer-component>
   </div>
@@ -357,6 +606,10 @@ function updateCountdown() {
 function formatNumber(number) {
   return number < 10 ? '0' + number : number;
 }
+/* === Overlay === */
+
+
+/* === Overlay === */
 </script>
 
 <style>
@@ -783,4 +1036,326 @@ section.event-schedule {
   font-weight: 600;
   line-height: normal;
 }
-</style>
+
+section.subscription {
+  padding: 10px 0px 90px;
+  height: fit-content;
+  width: 100%;
+}
+
+.subscription-container {
+  height: fit-content;
+}
+
+.subscription-head {
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.subscription-head h1 {
+  text-align: center;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 0px 0px 20px;
+}
+
+.subscription-head p {
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  margin: auto;
+  max-width: 600px;
+}
+
+.subscription-content {
+  display: flex;
+  align-items: stretch !important;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.subscription-card {
+  height: fit-content;
+  width: 100%;
+  padding: 40px 30px;
+  max-width: 350px;
+  min-width: 280px;
+  margin: 10px;
+  background: #fff;
+  position: relative;
+  box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.08);
+}
+
+.subscription-card p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  /* 18px */
+  letter-spacing: 0.72px;
+}
+
+.subscription-card h1 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  /* 40px */
+  letter-spacing: 1.6px;
+  margin: 24px 0px 40px;
+}
+
+.subscription-card .features {
+  padding-bottom: 70px;
+}
+
+.subscription-card .feature {
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin: 0px 0px 24px;
+}
+
+.features .check {
+  display: flex;
+  align-items: center;
+  margin: 0px 15px 0px;
+}
+
+.text {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+}
+
+button.btn-ticket {
+  height: 40px;
+  position: absolute;
+  bottom: 40px;
+  width: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 0px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0.64px;
+  background-color: #E58E04;
+  border: 0px;
+  outline: none;
+  color: #fff;
+}
+
+/* == Overlay == */
+.contact-overlay {
+    height: 100vh;
+    width: 100vw;
+    display: none;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background-color: #1b1e23;
+    transition: 0.3s;
+    animation:animatebottom 0.4s;
+}
+
+.contact-overlay-content {
+    height: 500px;
+    width: 1000px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px #00000055;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    padding: 30px;
+}
+
+.contact-overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 2px 2px 12px #00000055;
+}
+.contact-overlay .closebtn i{
+    font-size: 18px;
+    color: #c5d0df;
+}
+.contact-overlay .closebtn:hover i{
+    color: #E58E04;
+}
+
+
+@keyframes animatebottom{
+    from{
+        transform: translateY(40px);
+        opacity:0
+    } 
+    to{
+        bottom:0;
+        opacity:1
+    }
+}
+.form{
+    height: 100% !important;
+    width: 100% !important;
+}
+.form-head{
+    height: fit-content;
+    width: 100% !important;
+    padding: 20px 0px 10px;
+}
+.form-head h1{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: #c5d0df;
+}
+.form form{
+    height: 376px;
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+}
+.form form label{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: #c5d0df;
+    margin: 10px 0px 5px;
+    padding: 0px 10px;
+}
+.form form input{
+    height: 50px;
+    width: 400px !important;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: #c5d0df;
+    margin: 0px;
+    background-color: #191b20;
+    padding: 0px 10px;
+}
+.form form input:focus{
+    color: #E58E04;
+    border-bottom: 1px solid #E58E04;
+}
+
+
+.form form button{
+    height: 50px;
+    width: 200px !important;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: #c5d0df;
+    margin: 20px 0px 0px;
+    background-color: #191b20;
+    box-shadow: 2px 2px 12px #00000055;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+.form form button:hover{
+    color: #E58E04;
+    transition: all ease 200ms;
+}
+.sent-message{
+    height: 376px !important;
+    width: 100% !important;
+    display: none;
+    position: relative;
+    padding: 30px;
+    margin-top: 60px;
+}
+.sent-message .message-loader{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.message-loader .loader{
+    border: 4px solid #c5d0df;
+    border-radius: 50%;
+    border-top: 4px solid #E58E04;
+    width: 60px;
+    height: 60px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 1s linear infinite;
+}
+.sent-message .sent-alert{
+    text-align: center;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 18px 0px 0px;
+}
+.sent-alert .icon{
+    height: 60px;
+    width: 60px;
+    border: 1px solid #c5d0df;
+    background-color: #1b1e20;
+    box-shadow: 2px 2px 12px #00000055;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: auto;
+}
+.sent-alert .icon i{
+    font-size: 20px; 
+    color: #E58E04;
+}
+.sent-alert p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: #c5d0df;
+    margin: 0px;
+    text-align: center;
+}
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { 
+        -webkit-transform: rotate(0deg); 
+    }
+    100% { 
+        -webkit-transform: rotate(360deg); 
+    }
+  }
+  
+  @keyframes spin {
+    0% { 
+        transform: rotate(0deg); 
+    }
+    100% { 
+        transform: rotate(360deg); 
+    }
+  }
+/* == || End Loading Screen == */
+/* == || End Overlay == */</style>
