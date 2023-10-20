@@ -44,7 +44,7 @@ const routes = [
   {
     path: '/ai-summit',
     name: 'Ai-Summit',
-    component: () => import(/* webpackChunkName: "register" */ '../views/AISummit.vue')
+    component: () => import(/* webpackChunkName: "register" */ '../views/AIsummit.vue')
   },
 
 ]
