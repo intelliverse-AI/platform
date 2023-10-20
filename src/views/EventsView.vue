@@ -2,15 +2,15 @@
   <div class="bg-[#ECF9FF]">
     <nav-bar></nav-bar>
     <main>
-      <section class="h-screen events-hero bg-cover py-16 md:py-28">
+      <section class="lg:h-screen events-hero bg-cover py-16 md:py-28">
         <div class="container mx-auto px-5 lg:px-28 h-full space-y-6">
           <h1
-            class="text-white text-[32px] md:text-[40px] uppercase max-w-[50%]"
+            class="text-white text-[32px] md:text-[40px] uppercase lg:max-w-[50%]"
           >
             Building The Future of
             <span class="text-[#E58E04]">Artificial Intelligence</span> Together
           </h1>
-          <p class="text-white max-w-[50%]">
+          <p class="text-white lg:max-w-[50%]">
             Join as for exciting discussions on Artificial Intelligence Related
             topics, Research paper peer reviews,panel discussions,stake holder
             round tables and hackerthons
@@ -378,7 +378,7 @@
                 </div>
                 <div class="topic-card">
                   <div class="img">
-                    <img src="/images/events/event-4.png" alt="Intelliverse Event" />
+                    <img src="/images/events/event-15.png" alt="Intelliverse Event" />
                   </div>
                   <div class="event-card-info flex gap-2">
                     <div>

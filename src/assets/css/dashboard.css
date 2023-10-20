@@ -228,7 +228,6 @@ button.link .text{
     flex-wrap: wrap;
 }
 .topic-card{
-    width: 280px;
     overflow: hidden;
     border: 1px solid var(--grey);
     border-radius: 20px;
