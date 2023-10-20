@@ -493,6 +493,7 @@
                     </div>
                     <button class="btn-ticket" onclick="document.getElementById('contactOverlay').style.display = 'block';">GET YOUR TICKET</button>
                 </div>
+                
                 <div class="subscription-card">
                     <p>Gold</p>
                     <h1>$1500</h1>
