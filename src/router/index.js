@@ -35,10 +35,16 @@ const routes = [
     name: 'RequestPartnership',
     component: () => import(/* webpackChunkName: "register" */ '../views/PartnerSignup.vue')
   },
+
   {
     path: '/events',
     name: 'Events',
     component: () => import(/* webpackChunkName: "register" */ '../views/EventsView.vue')
+  },
+  {
+    path: '/ai-summit',
+    name: 'Ai-Summit',
+    component: () => import(/* webpackChunkName: "register" */ '../views/AISummit.vue')
   },
 
 ]
