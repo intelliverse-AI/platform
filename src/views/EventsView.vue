@@ -148,11 +148,11 @@
                       <h2 class="text-[28px]">25</h2>
                     </div>
                     <div>
-                      <a href=""
+                      <a href="https://www.linkedin.com/events/7098971402338246656/?lipi=urn%3Ali%3Apage%3Ad_flagship3_company_admin%3BTaooDev%2FTOOQyW0Bw1d%2BUQ%3D%3D"
                         >Navigating The Legal Landscape in AI</a
                       >
                       <hr class="w-full h-0.5 my-2 bg-black" />
-                      <a
+                      <a href="https://www.linkedin.com/events/7098971402338246656/?lipi=urn%3Ali%3Apage%3Ad_flagship3_company_admin%3BTaooDev%2FTOOQyW0Bw1d%2BUQ%3D%3D"
                         class="flex gap-3 bg-[#E58E04] px-4 rounded-lg py-2 text-white"
                       >
                         <svg
@@ -182,11 +182,11 @@
                       <h2 class="text-[28px]">1</h2>
                     </div>
                     <div>
-                      <a href=""
+                      <a href="https://www.linkedin.com/events/7102719227211476992/?lipi=urn%3Ali%3Apage%3Ad_flagship3_company_admin%3BTaooDev%2FTOOQyW0Bw1d%2BUQ%3D%3D"
                         >Will AI take Away My Job?</a
                       >
                       <hr class="w-full h-0.5 my-2 bg-black" />
-                      <a
+                      <a href="https://www.linkedin.com/events/7102719227211476992/?lipi=urn%3Ali%3Apage%3Ad_flagship3_company_admin%3BTaooDev%2FTOOQyW0Bw1d%2BUQ%3D%3D"
                         class="flex gap-3 bg-[#E58E04] px-4 rounded-lg py-2 text-white"
                       >
                         <svg
@@ -208,7 +208,7 @@
                 </div>
                 <div class="topic-card">
                   <div class="img">
-                    <img src="/images/events/event-3.jpg" alt="Intelliverse Event" />
+                    <img src="/images/events/event-14.jpeg" alt="Intelliverse Event" />
                   </div>
                   <div class="event-card-info flex gap-2">
                     <div>
@@ -216,11 +216,11 @@
                       <h2 class="text-[28px]">8</h2>
                     </div>
                     <div>
-                      <a href=""
+                      <a href="https://www.linkedin.com/events/7103335020047532032/?lipi=urn%3Ali%3Apage%3Ad_flagship3_company_admin%3BTaooDev%2FTOOQyW0Bw1d%2BUQ%3D%3D"
                         >How AI Makes Mental Health Services More Affordable.</a
                       >
                       <hr class="w-full h-0.5 my-2 bg-black" />
-                      <a
+                      <a href="https://www.linkedin.com/events/7103335020047532032/?lipi=urn%3Ali%3Apage%3Ad_flagship3_company_admin%3BTaooDev%2FTOOQyW0Bw1d%2BUQ%3D%3D"
                         class="flex gap-3 bg-[#E58E04] px-4 rounded-lg py-2 text-white"
                       >
                         <svg
@@ -242,7 +242,7 @@
                 </div>
                 <div class="topic-card">
                   <div class="img">
-                    <img src="/images/events/event-3.jpg" alt="Intelliverse Event" />
+                    <img src="/images/events/event-14.jpeg" alt="Intelliverse Event" />
                   </div>
                   <div class="event-card-info flex gap-2">
                     <div>
@@ -250,11 +250,11 @@
                       <h2 class="text-[28px]">15</h2>
                     </div>
                     <div>
-                      <a href=""
+                      <a href="https://www.linkedin.com/events/7107464414651412480/?lipi=urn%3Ali%3Apage%3Ad_flagship3_company_admin%3BTaooDev%2FTOOQyW0Bw1d%2BUQ%3D%3D"
                         >How AI Makes Mental Health More Affordable.</a
                       >
                       <hr class="w-full h-0.5 my-2 bg-black" />
-                      <a
+                      <a href="https://www.linkedin.com/events/7107464414651412480/?lipi=urn%3Ali%3Apage%3Ad_flagship3_company_admin%3BTaooDev%2FTOOQyW0Bw1d%2BUQ%3D%3D"
                         class="flex gap-3 bg-[#E58E04] px-4 rounded-lg py-2 text-white"
                       >
                         <svg
@@ -284,11 +284,11 @@
                       <h2 class="text-[28px]">22</h2>
                     </div>
                     <div>
-                      <a href=""
+                      <a href="https://www.linkedin.com/events/7109749196697575424/?lipi=urn%3Ali%3Apage%3Ad_flagship3_company_admin%3BTaooDev%2FTOOQyW0Bw1d%2BUQ%3D%3D"
                         >AI For Social Good.</a
                       >
                       <hr class="w-full h-0.5 my-2 bg-black" />
-                      <a
+                      <a href="https://www.linkedin.com/events/7109749196697575424/?lipi=urn%3Ali%3Apage%3Ad_flagship3_company_admin%3BTaooDev%2FTOOQyW0Bw1d%2BUQ%3D%3D"
                         class="flex gap-3 bg-[#E58E04] px-4 rounded-lg py-2 text-white"
                       >
                         <svg
@@ -318,11 +318,11 @@
                       <h2 class="text-[28px]">4</h2>
                     </div>
                     <div>
-                      <a href=""
+                      <a href="https://www.linkedin.com/events/7114261413421850624/?lipi=urn%3Ali%3Apage%3Ad_flagship3_company_admin%3BTaooDev%2FTOOQyW0Bw1d%2BUQ%3D%3D"
                         >Establishing the Framework For AI development in Africa</a
                       >
                       <hr class="w-full h-0.5 my-2 bg-black" />
-                      <a
+                      <a href="https://www.linkedin.com/events/7114261413421850624/?lipi=urn%3Ali%3Apage%3Ad_flagship3_company_admin%3BTaooDev%2FTOOQyW0Bw1d%2BUQ%3D%3D"
                         class="flex gap-3 bg-[#E58E04] px-4 rounded-lg py-2 text-white"
                       >
                         <svg
@@ -352,11 +352,11 @@
                       <h2 class="text-[28px]">11</h2>
                     </div>
                     <div>
-                      <a href=""
+                      <a href="https://www.linkedin.com/events/7115545169961136128/?lipi=urn%3Ali%3Apage%3Ad_flagship3_company_admin%3BTaooDev%2FTOOQyW0Bw1d%2BUQ%3D%3D"
                         >The Role of Research In The Development of AI in Africa.</a
                       >
                       <hr class="w-full h-0.5 my-2 bg-black" />
-                      <a
+                      <a href="https://www.linkedin.com/events/7115545169961136128/?lipi=urn%3Ali%3Apage%3Ad_flagship3_company_admin%3BTaooDev%2FTOOQyW0Bw1d%2BUQ%3D%3D"
                         class="flex gap-3 bg-[#E58E04] px-4 rounded-lg py-2 text-white"
                       >
                         <svg
@@ -386,11 +386,11 @@
                       <h2 class="text-[28px]">8</h2>
                     </div>
                     <div>
-                      <a href="" class="mb-4"
+                      <a href="https://www.linkedin.com/events/7119636821830963200/?lipi=urn%3Ali%3Apage%3Ad_flagship3_company_admin%3BTaooDev%2FTOOQyW0Bw1d%2BUQ%3D%3D" class="mb-4"
                         >The Future of AI in Africa.</a
                       >
                       <hr class="w-full h-0.5 my-2 bg-black mt-6" />
-                      <a
+                      <a href="https://www.linkedin.com/events/7119636821830963200/?lipi=urn%3Ali%3Apage%3Ad_flagship3_company_admin%3BTaooDev%2FTOOQyW0Bw1d%2BUQ%3D%3D"
                         class="flex gap-3 bg-[#E58E04] px-4 rounded-lg py-2 text-white"
                       >
                         <svg
@@ -427,11 +427,11 @@
                       <h2 class="text-[28px]">9</h2>
                     </div>
                     <div>
-                      <a href="" class="mb-4"
+                      <a href="https://www.linkedin.com/events/7119664586336710656/?lipi=urn%3Ali%3Apage%3Ad_flagship3_company_admin%3BTaooDev%2FTOOQyW0Bw1d%2BUQ%3D%3D" class="mb-4"
                         >Africa AI Summit</a
                       >
                       <hr class="w-full h-0.5 my-2 bg-black mt-6" />
-                      <a
+                      <a href="https://www.linkedin.com/events/7119664586336710656/?lipi=urn%3Ali%3Apage%3Ad_flagship3_company_admin%3BTaooDev%2FTOOQyW0Bw1d%2BUQ%3D%3D"
                         class="flex gap-3 bg-[#E58E04] px-4 rounded-lg py-2 text-white"
                       >
                         <svg
