@@ -277,8 +277,6 @@
                                 <button>Host A Dataset</button>
                             </div>
                             <div class="intro-image dci">
-                               
-                                <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="body_1" width="250" height="250">
 
                                     <g transform="matrix(2.6041667 0 0 2.6041667 0 0)">

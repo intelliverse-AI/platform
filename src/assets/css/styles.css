@@ -873,3 +873,7 @@ footer{
 .register-form p a:hover{
     color: var(--orange);
 }
+.events-hero{
+    background-image: url(../../assets/events-banner.png);
+
+}

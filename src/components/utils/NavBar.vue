@@ -3,7 +3,7 @@
     <nav>
       <div class="nav-container container">
         <div class="logo">
-          <a href="index.html">
+          <a href="/">
             <img
               src="/images/logo.png"
               alt=""
@@ -33,7 +33,7 @@
             >
             <a href="/#partners">Partner Network</a>
             <a href="/#challenges">Challenges</a>
-            <a href="/register">Forums</a>
+            <a href="/events">Events</a>
           </div>
           <div class="dropdown">
             <button class="dropbtn flex items-center">

@@ -235,7 +235,7 @@ button.link .text{
     margin: 10px;
 }
 .topic-card .img{
-    height: 120px;
+    height: 140px;
     width: 100%;
     overflow: hidden;
 }
@@ -243,6 +243,10 @@ button.link .text{
     width: 100%;
 }
 .topic-card .topic-card-info{
+    background-color: var(--white) !important;
+    padding: 10px;
+}
+.topic-card .event-card-info{
     background-color: var(--white) !important;
     padding: 10px;
 }
