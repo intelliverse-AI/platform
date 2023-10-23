@@ -644,7 +644,6 @@ form.newsletter input{
     height: 50px;
     width: 100%;
     max-width: 340px;
-    min-width: 280px;
     padding: 0px 20px;
     border: 0px;
     background-color: var(--white);

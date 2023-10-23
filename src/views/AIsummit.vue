@@ -574,6 +574,7 @@ import FooterComponent from '@/components/utils/FooterComponent.vue'
 import NavBar from '@/components/utils/NavBar.vue'
 export default {
   components: { FooterComponent, NavBar },
+  methods:{}
 
 }
 
