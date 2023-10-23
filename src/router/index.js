@@ -49,7 +49,7 @@ const routes = [
   {
     path: '/hackerthon',
     name: 'Hackerthon',
-    component: () => import(/* webpackChunkName: "hackerthon" */ '../views/Hackerthon.vue')
+    component: () => import(/* webpackChunkName: "hackerthon" */ '../views/HackerthonView.vue')
   },
 
 ]
