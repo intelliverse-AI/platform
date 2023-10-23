@@ -46,6 +46,11 @@ const routes = [
     name: 'Ai-Summit',
     component: () => import(/* webpackChunkName: "ai summit" */ '../views/AIsummit.vue')
   },
+  {
+    path: '/hackerthon',
+    name: 'Hackerthon',
+    component: () => import(/* webpackChunkName: "hackerthon" */ '../views/Hackerthon.vue')
+  },
 
 ]
 
