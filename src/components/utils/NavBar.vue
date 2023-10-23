@@ -34,6 +34,7 @@
             <a href="/#partners">Partner Network</a>
             <a href="/#challenges">Challenges</a>
             <a href="/events">Events</a>
+            <a href="/ai-summit">Africa AI Summit</a>
           </div>
           <div class="dropdown">
             <button class="dropbtn flex items-center">
