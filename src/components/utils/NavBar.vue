@@ -31,7 +31,7 @@
             <router-link to="/register"
               ><button class="find-btn">AI Research Hub</button></router-link
             >
-            <a href="/#partners">Partner Network</a>
+            <a href="/partner-network">Partner Network</a>
             <a href="/#challenges">Challenges</a>
             <a href="/events">Events</a>
             <a href="/ai-summit">Africa AI Summit</a>

@@ -305,7 +305,7 @@
           growing community of AI researchers
         </p>
         <div class="flex items-center w-full justify-center">
-          <router-link to="/requestPartnership">
+          <router-link to="/partner-network">
             <button
               class="bg-[#1f2d41] hover:bg-[#E58E04] text-white uppercase flex items-center gap-3 py-2 px-5 rounded-lg"
             >

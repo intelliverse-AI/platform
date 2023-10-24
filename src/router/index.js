@@ -47,6 +47,11 @@ const routes = [
     component: () => import(/* webpackChunkName: "ai summit" */ '../views/AIsummit.vue')
   },
   {
+    path: '/partner-network',
+    name: 'PartnerNetwork',
+    component: () => import(/* webpackChunkName: "hackerthon" */ '../views/PartnerNetworkView.vue')
+  },
+  {
     path: '/hackerthon',
     name: 'Hackerthon',
     component: () => import(/* webpackChunkName: "hackerthon" */ '../views/HackerthonView.vue')

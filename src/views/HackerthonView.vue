@@ -5,7 +5,7 @@
       <section class="innovation-sect">
         <div class="innovation-sect-container container">
           <div class="innovate-head">
-            <h1>Drive innovation with online hackathons</h1>
+            <h1>Bring Your <span>Artificial Intelligence</span> To Life Faster</h1>
             <p>With HackerEarth you can not only find qualified developers with hiring challenges but can also engage the
               developer community and your internal workforce by hosting hackathons</p>
           </div>
