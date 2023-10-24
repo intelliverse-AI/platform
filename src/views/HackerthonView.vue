@@ -279,7 +279,6 @@ section.extra-info {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
   background-color: #122D7E;
 }
 
