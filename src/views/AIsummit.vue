@@ -4,38 +4,27 @@
     <div>
       <section class="event-banner">
         <div class="event-banner-container container">
-          <div class="event-bn-text">
-            <h1> Annual Africa AI Summit!</h1>
-            <div id="countdown">
-              <div class="card">
-                <div class="number" id="days">00</div>
-                <div class="unit">Days</div>
-              </div>
-              <div class="colon">:</div>
-              <div class="card">
-                <div class="number" id="hours">00</div>
-                <div class="unit">Hours</div>
-              </div>
-              <div class="colon">:</div>
-              <div class="card">
-                <div class="number" id="minutes">00</div>
-                <div class="unit">Mins</div>
-              </div>
-              <div class="colon">:</div>
-              <div class="card">
-                <div class="number" id="seconds">00</div>
-                <div class="unit">Secs</div>
-              </div>
+          <div class="event-bn-text md:mt-20">
+            <h1>Annual Africa AI Summit!</h1>         
+            <div id="countdown" class="mb-10">
+              <div class=" flex">
+              {{ timeLeft }}
             </div>
+            </div>
+            <a href="https://www.linkedin.com/events/africaaisummit7119664586336710656/theater/"  class="py-2 bg-[#E58E04] rounded-lg text-white flex gap-2 w-[200px] items-center justify-center">Book Your Seat <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+</svg>
+</a>
+            
           </div>
           <div class="event-bn-image flex flex-center">
-            <div class="image-border">
-              <img src="\images\event banner image.png" alt="Intelliverseai">
+            <div class="image-border h-[395px] md:h-[643px]">
+              <img src="\images\eve.png" alt="Intelliverseai">
             </div>
           </div>
         </div>
       </section>
-      <section class="about-event">
+      <section class="about-event bg-[#ECF9FF]">
         <div class="about-event-container container">
           <div class="about-event-image">
             <img src="\images\About Conference Image.png" alt="Intelliverseai">
@@ -46,7 +35,7 @@
               countries to explore cutting-edge AI solutions in the banking sector. This event provides a unique
               opportunity for organizations to connect with our vibrant AI community, showcase their AI initiatives, and
               gain valuable insights into the world of artificial intelligence.</p>
-            <p>42 Drive, Florida, USA</p>
+            <!-- <p>42 Drive, Florida, USA</p> -->
             <div class="about-event-cards">
               <div class="about-event-card">
                 <h3>2</h3>
@@ -60,10 +49,10 @@
           </div>
         </div>
       </section>
-      <section class="speakers">
+      <!-- <section class="speakers bg-[#ECF9FF]">
         <div class="speakers-container container">
           <div class="speakers-head">
-            <h1>Speakers</h1>
+            <h1 class="text-center">Speakers</h1>
           </div>
           <div class="speakers-content">
             <div class="speaker">
@@ -110,7 +99,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
       <section class="events-highlights">
         <div class="events-highlights-container container">
           <div class="events-highlights-head">
@@ -243,7 +232,7 @@
           </div>
         </div>
       </section>
-      <section class="event-schedule">
+      <section class="event-schedule bg-[#ECF9FF]">
         <div class="event-schedule-container container">
           <div class="event-schedule-head">
             <h1>Event Schedule</h1>
@@ -322,14 +311,22 @@
                             <div class="form-head">
                                 <h1>Buy Ticket</h1>
                             </div>
-                            <form>
+                            <form @sumbit.prevent="handleSubmit">
                                 <label for="">Name</label>
-                                <input type="text" placeholder="Enter Your Name">
+                                <input type="text" placeholder="Enter Your Name" v-model="name">
                                 <label for="">Email</label>
-                                <input type="email" placeholder="Enter Your Email">
-                                <label for="">No of Tickets</label>
-                                <input type="number" placeholder="Enter No of Tickets">
-                                <button>Buy Ticket</button>
+                                <input type="email" placeholder="Enter Your Email" v-model="email">
+                                <label for="">Compnay Name</label>
+                                <input type="text" placeholder="intelliverse" v-model="company">
+                                <label for="">Phone Number</label>
+                                <input type="text" placeholder="" v-model="phone">
+                                <label for="">Sponsorship Type</label>
+                                <select v-model="sponsorship">
+                                  <option value="silver">Silver</option>
+                                  <option value="gold">Gold</option>
+                                  <option value="platinum">Platinum</option>
+                                </select>
+                                <button type="submit">Submit Request</button>
                             </form>
                         </div>
                         <div class="sent-message" id="load">
@@ -345,8 +342,8 @@
                 </div>
         <div class="subscription-container container">
             <div class="subscription-head">
-                <p>Tickets</p>
-                <h1>Book A Spot</h1>
+                <p>Corporates</p>
+                <h1>Become an Event Sponsor</h1>
             </div>
             <div class="subscription-content">
                 <div class="subscription-card">
@@ -574,47 +571,60 @@ import FooterComponent from '@/components/utils/FooterComponent.vue'
 import NavBar from '@/components/utils/NavBar.vue'
 export default {
   components: { FooterComponent, NavBar },
-  methods:{}
+  data() {
+    return {
+      eventDate: new Date('2023-11-10T00:00:00').getTime(),
+      timeLeft: '',
+      sponsorship:"",
+      name:"",
+      email:"",
+      company:"",
+      phone:""
+    };
+  },
+  mounted() {
+    this.updateCountdown();
+    // Update the countdown every second
+    setInterval(this.updateCountdown, 1000);
+   
+  },
+  methods: {
+    updateCountdown() {
+      const now = new Date().getTime();
+      const timeDifference = this.eventDate - now;
+
+      if (timeDifference > 0) {
+        const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
+
+        this.timeLeft = `${days}Days : ${hours}Hours : ${minutes}Mins : ${seconds}Secs`;
+      } else {
+        this.timeLeft = 'Event has started!';
+      }
+    },
+    handleSubmit(){
+      console.log("submiited",this.email,this.phone,this.company,this.sponsorship)
+      this.$store.dispatch("sendMail", {
+          name: "Sponsorship",
+          email: "ochiengwarren10@gmail.com,info@intelliverseai.com",
+          subject: "Sponsorship request Form",
+          content: `${this.email},${this.company},${this.name},${this.sponsorship},${this.phone}`,
+          link:`info@intelliverseai.com`
+        })
+    }
+  },
 
 }
 
-// Set the date we're counting down to
-const eventDate = new Date();
-eventDate.setDate(eventDate.getDate() + 3); // 3 days from now
-
-// Update the countdown every second
-const countdown = setInterval(updateCountdown, 1000);
-
-function updateCountdown() {
-  const currentDate = new Date();
-  const difference = eventDate - currentDate;
-
-  if (difference <= 0) {
-    clearInterval(countdown);
-    document.getElementById('countdown').innerHTML = 'Event has started!';
-  } else {
-    const days = Math.floor(difference / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
-    const seconds = Math.floor((difference % (1000 * 60)) / 1000);
-
-    document.getElementById('days').innerHTML = formatNumber(days);
-    document.getElementById('hours').innerHTML = formatNumber(hours);
-    document.getElementById('minutes').innerHTML = formatNumber(minutes);
-    document.getElementById('seconds').innerHTML = formatNumber(seconds);
-  }
-}
-
-function formatNumber(number) {
-  return number < 10 ? '0' + number : number;
-}
 /* === Overlay === */
 
 
 /* === Overlay === */
 </script>
 
-<style>
+<style scoped>
 .flex {
   display: flex;
 }
@@ -633,7 +643,7 @@ section.event-banner {
 
 .event-banner-container {
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: space-between;
   flex-wrap: wrap;
 }
@@ -652,37 +662,26 @@ section.event-banner {
   font-size: 72px;
   font-style: normal;
   font-weight: 800;
-  line-height: 85px;
+  line-height: 150%;
 }
 
 .event-bn-text #countdown {
-  font-size: 40px;
+  font-size: 32px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  margin: 50px 0px 0px;
+  color: #E58E04;
 }
 
 .event-bn-text #countdown .colon {
   margin: 0px 6px;
 }
 
-.event-bn-text #countdown .card {
-  display: inline-block;
-  margin: 0 10px;
-  text-align: center;
-  width: 70px;
-}
 
-.event-bn-text #countdown .number {
-  font-weight: bold;
-  color: #333;
-  text-align: center;
-  font-size: 40px;
-}
+
 
 .event-bn-text #countdown .unit {
   font-size: 24px;
@@ -697,7 +696,6 @@ section.event-banner {
 .image-border {
   border: 4px solid var(--orange);
   position: relative;
-  height: 673px;
   width: 574px;
 }
 
@@ -705,7 +703,6 @@ section.event-banner {
   position: absolute;
   top: 40px;
   left: 40px;
-  height: 673px;
   width: 574px;
 }
 
@@ -810,7 +807,6 @@ section.speakers {
   font-style: normal;
   font-weight: 800;
   line-height: normal;
-  text-align: left;
 }
 
 .speakers-content {
@@ -1244,7 +1240,7 @@ button.btn-ticket {
     margin: 10px 0px 5px;
     padding: 0px 10px;
 }
-.form form input{
+.form form input,select{
     height: 50px;
     width: 400px !important;
     outline: none;
