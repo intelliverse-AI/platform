@@ -42,61 +42,66 @@
                 </div>
                 <div class="option">
                   <div class="title">
-                    <h3>Location</h3>
+                    <h3>Status</h3>
                   </div>
                   <div class="checkboxes">
                     <div class="checking-bx">
                       <input type="checkbox">
-                      <label for="checkbox">Online</label>
+                      <label for="checkbox">Upcoming</label>
                     </div>
                     <div class="checking-bx">
                       <input type="checkbox">
-                      <label for="checkbox">Offline</label>
+                      <label for="checkbox">Open</label>
+                    </div>
+                    <div class="checking-bx">
+                      <input type="checkbox">
+                      <label for="checkbox">Ended</label>
                     </div>
                   </div>
                 </div>
                 <div class="option">
                   <div class="title">
-                    <h3>Location</h3>
+                    <h3>Length</h3>
                   </div>
                   <div class="checkboxes">
                     <div class="checking-bx">
                       <input type="checkbox">
-                      <label for="checkbox">Online</label>
+                      <label for="checkbox">1-6 days</label>
                     </div>
                     <div class="checking-bx">
                       <input type="checkbox">
-                      <label for="checkbox">Offline</label>
+                      <label for="checkbox">1-4 weeks</label>
+                    </div>
+                    <div class="checking-bx">
+                      <input type="checkbox">
+                      <label for="checkbox">1+ month</label>
                     </div>
                   </div>
                 </div>
                 <div class="option">
                   <div class="title">
-                    <h3>Location</h3>
+                    <h3>Interest tags</h3>
                   </div>
                   <div class="checkboxes">
                     <div class="checking-bx">
                       <input type="checkbox">
-                      <label for="checkbox">Online</label>
+                      <label for="checkbox">Beginner Friendly</label>
                     </div>
                     <div class="checking-bx">
                       <input type="checkbox">
-                      <label for="checkbox">Offline</label>
-                    </div>
-                  </div>
-                </div>
-                <div class="option">
-                  <div class="title">
-                    <h3>Location</h3>
-                  </div>
-                  <div class="checkboxes">
-                    <div class="checking-bx">
-                      <input type="checkbox">
-                      <label for="checkbox">Online</label>
+                      <label for="checkbox">Social Good</label>
                     </div>
                     <div class="checking-bx">
                       <input type="checkbox">
-                      <label for="checkbox">Offline</label>
+                      <label for="checkbox">Machine Learning AI</label>
+                    </div>
+                    <div class="checking-bx">
+                      <input type="checkbox">
+                      <label for="checkbox">Open Ended</label>
+                    </div>
+                    <div class="checking-bx">
+                      <input type="checkbox">
+                      <label for="checkbox">Education</label>
                     </div>
                   </div>
                 </div>
@@ -911,7 +916,7 @@ export default {
 }
 
 .list-card {
-  margin: 10px 0px;
+  margin: 15px 0px;
   height: fit-content;
   width: 100%;
   min-width: 280px;
@@ -967,12 +972,10 @@ export default {
 }
 
 .card-info-extra .top .top-left span {
-  padding: 8px 16px;
+  padding: 4px 20px;
   background-color: var(--orange);
   color: white;
-  border-radius: 16px;
-  height: 32px;
-
+ border-radius: 15.5px;
 }
 
 .card-info-extra span {
@@ -1006,12 +1009,12 @@ export default {
 
 .layers .right-layer span.flag,
 .layers .right-layer span.tags {
-  height: 32px;
-  border-radius: 16px;
+  height: fit-content;
+  border-radius: 16.5px;
   border: 1px solid #9caeb2;
   color: #5a757f;
   margin: 0px 6px 4px 0px;
-  padding: 6px 10px;
+  padding: 4px 10px;
 }
 
 .layers .right-layer {
