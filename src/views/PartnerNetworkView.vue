@@ -11,9 +11,8 @@
             <div class="innovate-content">
               <div class="innovate-card">
                 <img class="image-one" src="/images/Hackathon/hackathons-icon.svg" alt="Hackerthon">
-                <h2>Global Community</h2>
-                <p>Engaging a vibrant community of 15000+ AI researchers to come up with the research papers for your next AI  project</p>
-                <img class="image-two" src="/images/Hackathon/hackathons.webp" alt="Hackerthon">
+                <h2>Active Community</h2>
+                <p>Engaging a vibrant community of 15000+ AI researchers across Africa to come up with the research papers for your next AI  project</p>
                 <br>
                 <button>Request a demo</button>
               </div>
@@ -21,7 +20,6 @@
                 <img class="image-one" src="/images/Hackathon/hiring-challenges-icon.svg" alt="Hackerthon">
                 <h2>Host A Hackathon</h2>
                 <p>Get innovative developer teams work on your next AI solutions through Hackathons hosted on Intelliverse</p>
-                <img class="image-two" src="/images/Hackathon/hiring-challenges.webp" alt="Hackerthon">
                 <br>
                 <button>Request a demo</button>
               </div>
@@ -29,7 +27,7 @@
                 <img class="image-one" src="/images/Hackathon/internal-hackathons-icon.svg" alt="Hackerthon">
                 <h2>Academic Research</h2>
                 <p>Universities,NGOs,and Governments can host impact based research challenges to our AI Community</p>
-                <img class="image-two" src="/images/Hackathon/internal-hackathons.webp" alt="Hackerthon">
+                
                 <br>
                 <button>Request a demo</button>
               </div>
@@ -243,6 +241,9 @@
     margin: 30px 0;
   }
   
+  #div2 h1{
+    color: red;
+  }
   .innovate-card p {
     color: #6C6F8D;
     font-size: 18px;
