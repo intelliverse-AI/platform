@@ -1,7 +1,7 @@
- <template>
+<template>
   <div class="bg-[#ECF9FF]">
     <nav-bar></nav-bar>
-    <main class="container mx-auto px-5 lg:px-28">
+    <main class="container mx-auto px-5 lg:px-24">
       <section class="banner flex flex-col md:flex-row">
         <div class="banner-container basis-2/2 md:basis=1/3">
           <div class="bn-text mt-10">
@@ -54,21 +54,27 @@
           <div class="ctc-content">
             <div class="ctc-card">
               <h3>AI Researchers Registered</h3>
-              <p class="hidden-paragraph">1500+</p>
+              <p class="hidden-paragraph">8500+</p>
             </div>
 
-            <hr class="h-40 w-0 border-solid border-white border-[1px]" />
+            <hr
+              class="w-full h-0.5 md:h-40 md:w-0 border-solid border-white border-[1px]"
+            />
 
             <div class="ctc-card">
               <h3>Research Papers Published</h3>
-              <p class="hidden-paragraph">200+</p>
+              <p class="hidden-paragraph">2000+</p>
             </div>
-            <hr class="h-40 w-0 border-solid border-white border-[1px]" />
+            <hr
+              class="w-full h-0.5 md:h-40 md:w-0 border-solid border-white border-[1px]"
+            />
             <div class="ctc-card">
               <h3>Collaborative Partners</h3>
               <p class="hidden-paragraph">30+</p>
             </div>
-            <hr class="h-40 w-0 border-solid border-white border-[1px]" />
+            <hr
+              class="w-full h-0.5 md:h-40 md:w-0 border-solid border-white border-[1px]"
+            />
             <div class="ctc-card">
               <h3>Challenges Completed</h3>
               <p class="hidden-paragraph">150+</p>
@@ -76,7 +82,155 @@
           </div>
         </div>
       </section>
-      <section class="sectors py-10" id="challenges">
+      <section>
+        <div
+          class="flex flex-col-reverse md:flex-row justify-between community gap-10 items-center"
+        >
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-10 md:basis-1/2">
+            <div class="card rounded">
+              <div class="flex items-center mb-2">
+                <img
+                  src="/images/Hackathon/management-team.svg"
+                  alt="Hackathon"
+                />
+                <h4>Research Papers</h4>
+              </div>
+              <p>
+                Unified workspace to Post, update, and collaborate on new and
+                existing peer-reviewed AI research papers and projects
+              </p>
+            </div>
+            <div class="card rounded">
+              <div class="flex items-center mb-2">
+                <img
+                  src="/images/Hackathon/analysis-support.svg"
+                  alt="Hackathon"
+                />
+                <h4>Data repository</h4>
+              </div>
+              <p>
+                Find Comprehensive data sets from our community to work with on
+                your AI research projects
+              </p>
+            </div>
+            <div class="card rounded">
+              <div class="flex items-center mb-2">
+                <img
+                  src="/images/Hackathon/team-creation.svg"
+                  alt="Hackathon"
+                />
+                <h4>AI Models &amp;Copyrights</h4>
+              </div>
+              <p>
+                Discover trained, ready-to-deploy machine learning models and
+                get copyrights for your own models
+              </p>
+            </div>
+            <div class="card rounded">
+              <div class="flex items-center mb-2">
+                <img
+                  src="/images/Hackathon/design-support.svg"
+                  alt="Hackathon"
+                />
+                <h4>Collaborative Hackathons</h4>
+              </div>
+              <p>
+                Participate in both prized and academic hackathons,solving AI
+                research challenges
+              </p>
+            </div>
+          </div>
+          <div class="text basis-1/2">
+            <h3>Plug Into Intelliverse</h3>
+            <p>
+              Intelliverse is a collaborative AI research platform and
+              innovation ecosystem that empowers AI Researchers, AI engineers,
+              data scientists, Machine Learning Engineers, and Data Engineers
+              across Africa with the tools, datasets, and vibrant community they
+              need to build AI solutions to solve some of the continent’s most
+              pressing challenges. Our Community-first approach ensures that
+              researchers and engineers understand the needs and challenges
+              facing the African Continent, collaboratively publish
+              peer-reviewed whitepapers and develop solutions that are relevant
+              and effective.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="extra-info">
+        <div class="extra-info-container container">
+          <div class="text">
+            <div class="text-hold">
+              <h3>
+                Take Part in AI Research Projects Shaping the Future of African
+                Continent
+              </h3>
+              <a href="#" class="rounded-lg">Join The Hub</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="innovation-sect" id="partners">
+        <div class="innovation-sect-container container mx-auto">
+          <div class="innovate-head">
+            <h1 class="upppercase">Bring Your <span class="text-[#E58E04]">Artificial Intelligence Ideas</span> To Life Faster</h1>
+              <p>Through strategic partnerships and a deep understanding of the African
+          narrative, Intelliverse aims to transform challenges into
+          opportunities, ensuring that the African continent can harness the
+          true power of Artificial Intellignce in solving the most pressing
+          challenges. Private enterprises and public institutions can join the
+          platform to host AI research challenges to be tackled by our ever
+          growing community of AI researchers</p>
+          </div>
+          <div class="innovate-content grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="innovate-card">
+              <img
+                class="image-one"
+                src="/images/Hackathon/hackathons-icon.svg"
+                alt="Hackerthon"
+              />
+              <h2>Active Community</h2>
+              <p>
+                Engaging a vibrant community of 15000+ AI researchers across
+                Africa to come up with the research papers for your next AI
+                project
+              </p>
+              <br />
+              <button>Request a demo</button>
+            </div>
+            <div class="innovate-card">
+              <img
+                class="image-one"
+                src="/images/Hackathon/hiring-challenges-icon.svg"
+                alt="Hackerthon"
+              />
+              <h2>Host A Hackathon</h2>
+              <p>
+                Get innovative developer teams work on your next AI solutions
+                through Hackathons hosted on Intelliverse
+              </p>
+              <br />
+              <button>Request a demo</button>
+            </div>
+            <div class="innovate-card">
+              <img
+                class="image-one"
+                src="/images/Hackathon/evaluation.svg"
+                alt="Hackerthon"
+              />
+              <h2>Academic Research</h2>
+              <p>
+                Universities,NGOs,and Governments can host impact based research
+                challenges to our AI Community
+              </p>
+
+              <br />
+              <button>Request a demo</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- <section class="sectors py-10" id="challenges">
         <h1 class="md:mx-20 md:my-5">
           Take Part in AI Research Projects Shaping the Future of African
           Continent
@@ -292,8 +446,8 @@
             </router-link>
           </div>
         </div>
-      </section>
-      <section class="py-10 global" id="partners">
+      </section> -->
+      <!-- <section class="py-10 global" id="partners">
         <h1 class="md:mx-20 md:my-5">Global Enterprise Network</h1>
         <p class="md:mx-20 md:my-5">
           Through strategic partnerships and a deep understanding of the African
@@ -326,7 +480,7 @@
           </router-link>
         </div>
         <img src="/images/global.png" alt="" />
-      </section>
+      </section> -->
     </main>
     <section class="newsletter">
       <div
@@ -338,15 +492,21 @@
           </div>
           <div class="news-txt">
             <span
-              >WANTS TO GET LATEST AI RESEARCH UPDATES! SIGN UP FOR FREE.</span
+              >WANT TO GET LATEST AI RESEARCH UPDATES! SIGN UP FOR FREE.</span
             >
             <h1>SUBSCRIBE NEWSLETTER !</h1>
           </div>
         </div>
         <div class="form">
           <form class="newsletter" @submit.prevent="handleSubmit">
-            <input type="text" placeholder="Enter Email Address" v-model="email"/>
-            <button type="submit">{{ loading?'loading':'Subscribe' }}</button>
+            <input
+              type="text"
+              placeholder="Enter Email Address"
+              v-model="email"
+            />
+            <button type="submit">
+              {{ loading ? "loading" : "Subscribe" }}
+            </button>
           </form>
         </div>
       </div>
@@ -354,11 +514,11 @@
     <footer-component></footer-component>
   </div>
 </template>
- 
- <script>
+
+<script>
 import NavBar from "@/components/utils/NavBar.vue";
 import FooterComponent from "@/components/utils/FooterComponent.vue";
-import { mapState } from 'vuex';
+import { mapState } from "vuex";
 export default {
   data() {
     return {
@@ -385,6 +545,5 @@ export default {
   },
 };
 </script>
- 
- <style>
-</style>
+
+<style></style>
