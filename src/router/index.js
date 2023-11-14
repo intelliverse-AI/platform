@@ -23,7 +23,24 @@ const routes = [
   {
     path: '/dashboard',
     name: 'Dashboard',
-    component: () => import(/* webpackChunkName: "about" */ '../views/DashboardView.vue')
+    component: () => import(/* webpackChunkName: "dashboard" */ '../views/DashboardView.vue'),
+    children:[
+      {
+        path: '/challenges',
+        name: 'Challenges',
+        component: () => import(/* webpackChunkName: "challenges" */ '../views/dashboard/ChallengesView.vue'), 
+      },
+      {
+        path: '/research-papers',
+        name: 'ResearchPapers',
+        component: () => import(/* webpackChunkName: "challenges" */ '../views/dashboard/ResearchPapers.vue'), 
+      }
+    ]
+  },
+  {
+    path: '/research-papers',
+    name: 'ResearchPapers',
+    component: () => import(/* webpackChunkName: "research papers" */ '../views/dashboard/ResearchPapers.vue')
   },
   {
     path: '/register',
