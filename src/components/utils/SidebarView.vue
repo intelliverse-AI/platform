@@ -7,8 +7,7 @@
                         </div>
                         <div class="text">
                             <span class="dash-logo">
-                                <span class="logo-text-one">AfroAI</span>
-                                <span class="logo-text-two">Innovate</span>
+                                <img src="/images/logo.png" alt="logo" class="h-20 w-20 object-contain">
                             </span>
                         </div>
                     </button>
