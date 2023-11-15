@@ -15,11 +15,7 @@ const routes = [
     name: 'about',
     component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
   },
-  {
-    path: '/single-challenge',
-    name: 'SingleChallenge',
-    component: () => import(/* webpackChunkName: "about" */ '../views/SingleChallenge.vue')
-  },
+
   {
     path: '/dashboard',
     name: 'Dashboard',
@@ -44,7 +40,12 @@ const routes = [
         path: 'datasets',
         name: 'Datasets',
         component: () => import(/* webpackChunkName: "forums" */ '../views/dashboard/DatasetsView.vue'), 
-      }
+      },
+      {
+        path: 'challenge/:id',
+        name: 'SingleChallenge',
+        component: () => import(/* webpackChunkName: "single challenge" */ '../views/dashboard/SingleChallenge.vue')
+      },
     ]
   },
   {

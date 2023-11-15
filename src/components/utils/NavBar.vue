@@ -32,7 +32,7 @@
               ><button class="find-btn">AI Research Hub</button></router-link
             >
             <a href="/#partners">Partner Network</a>
-            <a href="/dashboard/challenges">Research Papers</a>
+            <a href="/dashboard/research-papers">Research Papers</a>
             <a href="/events">Events</a>
             <!-- <a href="/ai-summit">Africa AI Summit</a> -->
           </div>

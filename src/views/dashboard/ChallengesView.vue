@@ -85,7 +85,7 @@
                <i class="fa-solid fa-tag"></i>
              </div>
              <div class="right-layer">
-               <span class="tags">View All</span>
+               <span class="tags"><router-link to="/dashboard/challenge/1">View All</router-link></span>
                <span class="tags">Get Datasets</span>
                <span class="tags whitespace-nowrap">Join Challenge</span>
              </div>
