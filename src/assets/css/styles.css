@@ -716,24 +716,24 @@ footer{
     text-decoration: none;
     padding: 10px;
 }
-.ft-column.link{
+.ft-column.footer-link{
     width: 100%;
     max-width: 176px;
     min-width: 170px;
 }
-.ft-column.link h2{
+.ft-column.footer-link h2{
     font-weight: 500;
     color: var(--grey);
 }
-.ft-column.link ul{
+.ft-column.footer-link ul{
     padding: 0px;
     list-style: none;
     margin: 0px;
 }
-.ft-column.link ul li{
+.ft-column.footer-link ul li{
     padding: 4px 0px;
 }
-.ft-column.link ul li a{
+.ft-column.footer-link ul li a{
     padding: 4px 0px;
     font-size: 16px;
     font-weight: 400;

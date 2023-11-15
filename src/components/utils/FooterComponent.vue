@@ -11,7 +11,7 @@
                             <a href="https://www.linkedin.com/company/intelliverse-ai-lab"><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
-                    <div class="ft-column link">
+                    <div class="ft-column footer-link">
                         <h2>Product</h2>
                         <ul>
                             <li><a href="#">Challenges</a></li>
@@ -21,7 +21,7 @@
                            
                         </ul>
                     </div>
-                    <div class="ft-column link">
+                    <div class="ft-column footer-link">
                         <h2>Documentation</h2>
                         <ul>
                             <li><a href="#">Public API</a></li>
@@ -32,7 +32,7 @@
                             
                         </ul>
                     </div>
-                    <div class="ft-column link">
+                    <div class="ft-column footer-link">
                         <h2>Company</h2>
                         <ul>
                             <li><a href="#">Our Team</a></li>
