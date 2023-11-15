@@ -83,7 +83,7 @@
                       <i class="fa-solid fa-tag"></i>
                     </div>
                     <div class="right-layer">
-                      <span class="tags">View All</span>
+                      <span class="tags"><router-link to="/dashboard/paper/1">View All</router-link></span>
                       <span class="tags">Get Code</span>
                       <span class="tags whitespace-nowrap">Download Paper</span>
                     </div>
@@ -152,7 +152,7 @@
                       <i class="fa-solid fa-tag"></i>
                     </div>
                     <div class="right-layer">
-                      <span class="tags">View All</span>
+                      <span class="tags"><router-link to="/dashboard/paper/1">View All</router-link></span>
                       <span class="tags">Get Code</span>
                       <span class="tags whitespace-nowrap">Download Paper</span>
                     </div>

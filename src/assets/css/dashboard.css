@@ -353,7 +353,7 @@ button.link .icon i{
     width: 100%;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
-    background-image: url('../../../public/images/header.png');
+    background-image: url('../../../public/images/events-banner.png');
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -496,10 +496,13 @@ button.link .icon i{
 }
 .left.tabs-nav{
     width: 100%;
-    max-width: 700px;
 }
+.left.tabs-nav h3{
+    color: #9caeb2;
+}
+
 .accordion-content p{
-    margin: 10px 0px;
+    margin: 5px 0px;
 }
 .accordion-content ul{
     margin-left: 20px;
@@ -572,9 +575,14 @@ button.link .icon i{
     color: var(--color);
     margin: 10px 0px;
 }
-.rules-tab h3{
+.rules-tab a{
     font-weight: 600;
     color: var(--color);
+    margin: 10px 0px;
+}
+.rules-tab a:hover{
+    font-weight: 600;
+    color: var(--orange);
     margin: 10px 0px;
 }
 .rules-tab p{
@@ -852,3 +860,30 @@ button.link .icon i{
     font-size: 14px;
     font-weight: 500;
   }
+  .paper-overview button{
+    height: 40px;
+    width: 140px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #00000000;
+    border-radius: 10px;
+    margin: 5px;
+}
+.btn-download{
+    background-color: var(--primary);
+    color: var(--white);
+}
+  .btn-download:hover{
+    background-color: var(--orange);
+    color: var(--white);
+}
+.btn-citation{
+    background-color: var(--white);
+    color: var(--color);
+    border: 1px solid var(--orange) !important;
+}
+.btn-citation:hover{
+    background-color: var(--orange);
+    color: var(--white);
+    border: 1px solid var(--orange) !important;
+}

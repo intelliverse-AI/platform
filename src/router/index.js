@@ -46,6 +46,11 @@ const routes = [
         name: 'SingleChallenge',
         component: () => import(/* webpackChunkName: "single challenge" */ '../views/dashboard/SingleChallenge.vue')
       },
+      {
+        path: 'paper/:id',
+        name: 'SinglePaper',
+        component: () => import(/* webpackChunkName: "single challenge" */ '../views/dashboard/SinglePaper.vue')
+      },
     ]
   },
   {
