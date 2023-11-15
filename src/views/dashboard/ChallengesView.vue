@@ -8,8 +8,6 @@
                                 <button>Host A Challenge</button>
                             </div>
                             <div class="intro-image dci">
-                              
-                                <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="body_1" width="250" height="250">
 
                                     <g transform="matrix(2.6041667 0 0 2.6041667 0 0)">
@@ -34,10 +32,10 @@
                                     <h2><i class="fa-solid fa-arrow-trend-up"></i> Trending Challenges</h2>
                                     <a href="#">View All</a>
                                 </div>
-                                <div class="topic-cards">
+                                <div class="topic-cards grid grid-cols-1 md:grid-cols-3">
                                     <div class="topic-card">
                                         <div class="img">
-                                            <img src="css/img/topic image.jpg" alt="afroaiinnovate">
+                                            <img src="/images/topic image.jpg" alt="afroaiinnovate">
                                         </div>
                                         <div class="topic-card-info">
                                             <a href="single_challenge.html">Movies & Ratings for Recommendation System</a>
@@ -52,7 +50,7 @@
                                     </div>
                                     <div class="topic-card">
                                         <div class="img">
-                                            <img src="css/img/topic image.jpg" alt="afroaiinnovate">
+                                            <img src="/images/topic image.jpg" alt="afroaiinnovate">
                                         </div>
                                         <div class="topic-card-info">
                                             <a href="single_challenge.html">Movies & Ratings for Recommendation System</a>
@@ -67,109 +65,7 @@
                                     </div>
                                     <div class="topic-card">
                                         <div class="img">
-                                            <img src="css/img/topic image.jpg" alt="afroaiinnovate">
-                                        </div>
-                                        <div class="topic-card-info">
-                                            <a href="single_challenge.html">Movies & Ratings for Recommendation System</a>
-                                            <p>Nicoleta Cilibiu · Updated 3 days ago</p>
-                                            <p>Usability <strong>9.4</strong> · 866 kB</p>
-                                            <p>2 Files (CSV)</p>
-                                        </div>
-                                        <div class="pricing">
-                                            <span>$100,000</span>
-                                            <span>2 months to go</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card-topic">
-                                    <h2><i class="fa-solid fa-tag"></i> Clothing & Accessories</h2>
-                                    <a href="#">View All</a>
-                                </div>
-                                <div class="topic-cards">
-                                    <div class="topic-card">
-                                        <div class="img">
-                                            <img src="css/img/topic image.jpg" alt="afroaiinnovate">
-                                        </div>
-                                        <div class="topic-card-info">
-                                            <a href="single_challenge.html">Movies & Ratings for Recommendation System</a>
-                                            <p>Nicoleta Cilibiu · Updated 3 days ago</p>
-                                            <p>Usability <strong>9.4</strong> · 866 kB</p>
-                                            <p>2 Files (CSV)</p>
-                                        </div>
-                                        <div class="pricing">
-                                            <span>$100,000</span>
-                                            <span>2 months to go</span>
-                                        </div>
-                                    </div>
-                                    <div class="topic-card">
-                                        <div class="img">
-                                            <img src="css/img/topic image.jpg" alt="afroaiinnovate">
-                                        </div>
-                                        <div class="topic-card-info">
-                                            <a href="single_challenge.html">Movies & Ratings for Recommendation System</a>
-                                            <p>Nicoleta Cilibiu · Updated 3 days ago</p>
-                                            <p>Usability <strong>9.4</strong> · 866 kB</p>
-                                            <p>2 Files (CSV)</p>
-                                        </div>
-                                        <div class="pricing">
-                                            <span>$100,000</span>
-                                            <span>2 months to go</span>
-                                        </div>
-                                    </div>
-                                    <div class="topic-card">
-                                        <div class="img">
-                                            <img src="css/img/topic image.jpg" alt="afroaiinnovate">
-                                        </div>
-                                        <div class="topic-card-info">
-                                            <a href="single_challenge.html">Movies & Ratings for Recommendation System</a>
-                                            <p>Nicoleta Cilibiu · Updated 3 days ago</p>
-                                            <p>Usability <strong>9.4</strong> · 866 kB</p>
-                                            <p>2 Files (CSV)</p>
-                                        </div>
-                                        <div class="pricing">
-                                            <span>$100,000</span>
-                                            <span>2 months to go</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card-topic">
-                                    <h2><i class="fa-solid fa-brain"></i> NLP</h2>
-                                    <a href="#">View All</a>
-                                </div>
-                                <div class="topic-cards">
-                                    <div class="topic-card">
-                                        <div class="img">
-                                            <img src="css/img/topic image.jpg" alt="afroaiinnovate">
-                                        </div>
-                                        <div class="topic-card-info">
-                                            <a href="single_challenge.html">Movies & Ratings for Recommendation System</a>
-                                            <p>Nicoleta Cilibiu · Updated 3 days ago</p>
-                                            <p>Usability <strong>9.4</strong> · 866 kB</p>
-                                            <p>2 Files (CSV)</p>
-                                        </div>
-                                        <div class="pricing">
-                                            <span>$100,000</span>
-                                            <span>2 months to go</span>
-                                        </div>
-                                    </div>
-                                    <div class="topic-card">
-                                        <div class="img">
-                                            <img src="css/img/topic image.jpg" alt="afroaiinnovate">
-                                        </div>
-                                        <div class="topic-card-info">
-                                            <a href="single_challenge.html">Movies & Ratings for Recommendation System</a>
-                                            <p>Nicoleta Cilibiu · Updated 3 days ago</p>
-                                            <p>Usability <strong>9.4</strong> · 866 kB</p>
-                                            <p>2 Files (CSV)</p>
-                                        </div>
-                                        <div class="pricing">
-                                            <span>$100,000</span>
-                                            <span>2 months to go</span>
-                                        </div>
-                                    </div>
-                                    <div class="topic-card">
-                                        <div class="img">
-                                            <img src="css/img/topic image.jpg" alt="afroaiinnovate">
+                                            <img src="/images/topic image.jpg" alt="afroaiinnovate">
                                         </div>
                                         <div class="topic-card-info">
                                             <a href="single_challenge.html">Movies & Ratings for Recommendation System</a>

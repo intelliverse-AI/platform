@@ -5,7 +5,10 @@
     </aside>
     <main class="dash-side-content">
       <dashboard-header></dashboard-header>
-      <router-view></router-view>
+      <div>
+        <router-view></router-view>
+      </div>
+     
     </main>
   </div>
 </template>

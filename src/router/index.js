@@ -26,14 +26,24 @@ const routes = [
     component: () => import(/* webpackChunkName: "dashboard" */ '../views/DashboardView.vue'),
     children:[
       {
-        path: '/challenges',
+        path: 'challenges',
         name: 'Challenges',
         component: () => import(/* webpackChunkName: "challenges" */ '../views/dashboard/ChallengesView.vue'), 
       },
       {
-        path: '/research-papers',
+        path: 'research-papers',
         name: 'ResearchPapers',
-        component: () => import(/* webpackChunkName: "challenges" */ '../views/dashboard/ResearchPapers.vue'), 
+        component: () => import(/* webpackChunkName: "research-papers" */ '../views/dashboard/ResearchPapers.vue'), 
+      },
+      {
+        path: 'forums',
+        name: 'Forums',
+        component: () => import(/* webpackChunkName: "forums" */ '../views/dashboard/DiscussionForums.vue'), 
+      },
+      {
+        path: 'datasets',
+        name: 'Datasets',
+        component: () => import(/* webpackChunkName: "forums" */ '../views/dashboard/DatasetsView.vue'), 
       }
     ]
   },

@@ -23,25 +23,9 @@
     top: 0px;
     left: 0px;
 }
-span.dash-logo{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    font-size: 18px;
-    font-weight: 700;
-    color: var(--color);
-    line-height: 34px;
-    margin-right: 32px;
-}
 
-span.dash-logo span.logo-text-one{
-    color: var(--active-color) !important;
-}
 
-span.dash-logo span.logo-text-one{
-    color: var(--color);
-}
-button.link{
+.link{
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -51,20 +35,20 @@ button.link{
     border: 0px;
     border-right: 3px;
 }
-button.link:hover{
+.link:hover{
     background-color: var(--light-grey);
     color: var(--active-color);
     border-right: 3px solid var(--active-color);
 }
-button.link:hover button.link .text span{
+.link:hover button.link .text span{
     color: var(--active-color) !important;
 }
-button.link.btn-content.active{
+.link.btn-content.active{
     background-color: var(--light-grey);
     color: var(--active-color);
     border-right: 3px solid var(--active-color);
 }
-button.link.btn-content.active .text span{
+.link.btn-content.active .text span{
     color: var(--active-color) !important;
 }
 button.create-btn{
@@ -73,7 +57,7 @@ button.create-btn{
 button.create-btn .icon{
     box-shadow: 2px 2px 12px #00000033;
 }
-button.link .icon{
+.link .icon{
     height: 48px;
     width: 48px;
     padding: 0px 15px;
@@ -90,7 +74,7 @@ button.link .icon i{
     font-size: 20px;
 
 }
-button.link .text{
+.link .text{
     font-size: 16px;
     font-weight: 500;
     color: var(--color);
@@ -220,12 +204,6 @@ button.link .text{
 }
 .cards .card-topic a:hover{
     color: var(--active-color);
-}
-.topic-cards{
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
 }
 .topic-card{
     overflow: hidden;

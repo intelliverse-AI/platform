@@ -1,11 +1,10 @@
 <template>
-  <div class="dash-content-displayed">
-                    <div id="challenges-content">
+   <div class="dash-content-displayed">
+                    <div id="discussion-content">
                         <div class="dash-content-intro">
                             <div class="intro-text dci">
-                                <h1>Research Papers</h1>
-                                <p>Grow your data science skills by competing in our exciting competitions. Find help in the documentation or learn about Community Competitions.</p>
-                                <button>Publish A paper</button>
+                                <h1>Discussion</h1>
+                                <p>Discuss the AfroAI Innovate platform & machine learning topics – this includes sharing feedback, asking questions, and more.</p>
                             </div>
                             <div class="intro-image dci">
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="body_1" width="250" height="250">
@@ -18,77 +17,60 @@
                             </div>
                         </div>
                         <div class="dash-main-cards">
-                            <div class="top">
-                                <div class="dash-cards-categories">
-                                    <span>Computer Science</span>
-                                    <span>Data Science</span>
-                                    <span>Environment</span>
-                                    <span>Tech</span>
-                                    <span>Farming</span>
-                                </div>
+                            <div class="discussion-head">
+                                <h2><i class="fa-regular fa-comments"></i> Forum</h2>
                             </div>
-                            <div class="cards">
-                                <div class="card-topic">
-                                    <h2><i class="fa-solid fa-arrow-trend-up"></i> Trending Challenges</h2>
-                                    <a href="#">View All</a>
+                            <div class="discussion-cards">
+                                <div class="discussion">
+                                    <div class="left">
+                                        <div class="profile-img">
+                                            <img src="/images/profile image.png" alt="AfroAI Innovate">
+                                        </div>
+                                        <div class="topic-discussed">
+                                            <a href="#">Bonus 40k Dataset - Boost CV and LB</a>
+                                            <p>Chris Deotte · in Kaggle - LLM Science Exam · Last comment 3h ago by ZONGXIAO YING</p>
+                                        </div>
+                                    </div>
+                                    <div class="right">
+                                        <span>44 Comments</span>
+                                    </div>
                                 </div>
-                                <div class="topic-cards grid grid-cols-1 md:grid-cols-3">
-                                    <div class="topic-card">
-                                        <div class="img">
-                                            <img src="/images/topic image.jpg" alt="afroaiinnovate">
+                                <div class="discussion">
+                                    <div class="left">
+                                        <div class="profile-img">
+                                            <img src="/images/profile image.png" alt="AfroAI Innovate">
                                         </div>
-                                        <div class="topic-card-info">
-                                            <a href="single_challenge.html">Movies & Ratings for Recommendation System</a>
-                                            <p>Nicoleta Cilibiu · Updated 3 days ago</p>
-                                            <p>Usability <strong>9.4</strong> · 866 kB</p>
-                                            <p>2 Files (CSV)</p>
-                                        </div>
-                                        <div class="pricing">
-                                            <span>$100,000</span>
-                                            <span>2 months to go</span>
+                                        <div class="topic-discussed">
+                                            <a href="#">Bonus 40k Dataset - Boost CV and LB</a>
+                                            <p>Chris Deotte · in Kaggle - LLM Science Exam · Last comment 3h ago by ZONGXIAO YING</p>
                                         </div>
                                     </div>
-                                    <div class="topic-card">
-                                        <div class="img">
-                                            <img src="/images/topic image.jpg" alt="afroaiinnovate">
+                                    <div class="right">
+                                        <span>44 Comments</span>
+                                    </div>
+                                </div>
+                                <div class="discussion">
+                                    <div class="left">
+                                        <div class="profile-img">
+                                            <img src="/images/profile image.png" alt="AfroAI Innovate">
                                         </div>
-                                        <div class="topic-card-info">
-                                            <a href="single_challenge.html">Movies & Ratings for Recommendation System</a>
-                                            <p>Nicoleta Cilibiu · Updated 3 days ago</p>
-                                            <p>Usability <strong>9.4</strong> · 866 kB</p>
-                                            <p>2 Files (CSV)</p>
-                                        </div>
-                                        <div class="pricing">
-                                            <span>$100,000</span>
-                                            <span>2 months to go</span>
+                                        <div class="topic-discussed">
+                                            <a href="#">Bonus 40k Dataset - Boost CV and LB</a>
+                                            <p>Chris Deotte · in Kaggle - LLM Science Exam · Last comment 3h ago by ZONGXIAO YING</p>
                                         </div>
                                     </div>
-                                    <div class="topic-card">
-                                        <div class="img">
-                                            <img src="/images/topic image.jpg" alt="afroaiinnovate">
-                                        </div>
-                                        <div class="topic-card-info">
-                                            <a href="single_challenge.html">Movies & Ratings for Recommendation System</a>
-                                            <p>Nicoleta Cilibiu · Updated 3 days ago</p>
-                                            <p>Usability <strong>9.4</strong> · 866 kB</p>
-                                            <p>2 Files (CSV)</p>
-                                        </div>
-                                        <div class="pricing">
-                                            <span>$100,000</span>
-                                            <span>2 months to go</span>
-                                        </div>
+                                    <div class="right">
+                                        <span>44 Comments</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                  
                 </div>
 </template>
 
 <script>
 export default {
-  components: {  },
 
 }
 </script>

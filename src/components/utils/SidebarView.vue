@@ -19,54 +19,55 @@
                             <span>Create</span>
                         </div>
                     </button>
-                    <button class="link btn-content" onclick="location.href='index.html'">
+                    <router-link class="link btn-content" to="/">
                         <div class="icon">
                             <i class="fa-solid fa-house"></i>
                         </div>
                         <div class="text">
                             <span>Home</span>
                         </div>
-                    </button>
-                    <button class="link btn-content active">
+                    </router-link>
+                    <router-link class="link btn-content" to="/dashboard/research-papers">
+                        <div class="icon">
+                            <i class="fa-solid fa-table"></i>
+                        </div>
+                        <div class="text">
+                            <span>Research Papers</span>
+                        </div>
+                    </router-link>
+                    <router-link class="link btn-content active" to="/dashboard/challenges">
                         <div class="icon">
                             <i class="fa-solid fa-trophy"></i>
                         </div>
                         <div class="text">
                             <span>Challenges</span>
                         </div>
-                    </button>
-                    <button class="link btn-content">
-                        <div class="icon">
-                            <i class="fa-solid fa-table"></i>
-                        </div>
-                        <div class="text">
-                            <span>Datasets</span>
-                        </div>
-                    </button>
-                    <button class="link btn-content">
+                    </router-link>
+                   
+                    <router-link class="link btn-content" to="/dashboard/datasets">
                         <div class="icon">
                             <i class="fa-solid fa-share-nodes"></i>
                         </div>
                         <div class="text">
-                            <span>Modules</span>
+                            <span>Datasets</span>
                         </div>
-                    </button>
-                    <button class="link btn-content">
+                    </router-link>
+                    <!-- <button class="link btn-content">
                         <div class="icon">
                             <i class="fa-solid fa-code"></i>
                         </div>
                         <div class="text">
                             <span>Code</span>
                         </div>
-                    </button>
-                    <button class="link btn-content">
+                    </button> -->
+                    <router-link class="link btn-content" to="/dashboard/forums">
                         <div class="icon">
                             <i class="fa-solid fa-message"></i>
                         </div>
                         <div class="text">
                             <span>Discussion</span>
                         </div>
-                    </button>
+                    </router-link>
                 </div>
             </div>
 </template>
