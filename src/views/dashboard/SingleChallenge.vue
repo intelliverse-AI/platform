@@ -137,7 +137,58 @@
                                     </div>
                                 </div>
                             </div>
-                            <div :class="{ 'data-tab tabs-content spc active-tab': activeTab === 'discussion', 'data-tab tabs-content': activeTab !== 'discussion' }" id="discussion">Discussion Content</div>
+                            <div :class="{ 'data-tab tabs-content spc active-tab': activeTab === 'discussion', 'data-tab tabs-content': activeTab !== 'discussion' }" id="discussion">
+                                <div class="dash-content-displayed">
+                    <div id="discussion-content">
+                        <div class="dash-main-cards">
+                            <div class="discussion-cards">
+                                <div class="discussion">
+                                    <div class="left">
+                                        <div class="profile-img">
+                                            <img src="/images/profile image.png" alt="AfroAI Innovate">
+                                        </div>
+                                        <div class="topic-discussed">
+                                            <a href="#">Bonus 40k Dataset - Boost CV and LB</a>
+                                            <p>Chris Deotte · in Kaggle - LLM Science Exam · Last comment 3h ago by ZONGXIAO YING</p>
+                                        </div>
+                                    </div>
+                                    <div class="right">
+                                        <span>44 Comments</span>
+                                    </div>
+                                </div>
+                                <div class="discussion">
+                                    <div class="left">
+                                        <div class="profile-img">
+                                            <img src="/images/profile image.png" alt="AfroAI Innovate">
+                                        </div>
+                                        <div class="topic-discussed">
+                                            <a href="#">Bonus 40k Dataset - Boost CV and LB</a>
+                                            <p>Chris Deotte · in Kaggle - LLM Science Exam · Last comment 3h ago by ZONGXIAO YING</p>
+                                        </div>
+                                    </div>
+                                    <div class="right">
+                                        <span>44 Comments</span>
+                                    </div>
+                                </div>
+                                <div class="discussion">
+                                    <div class="left">
+                                        <div class="profile-img">
+                                            <img src="/images/profile image.png" alt="AfroAI Innovate">
+                                        </div>
+                                        <div class="topic-discussed">
+                                            <a href="#">Bonus 40k Dataset - Boost CV and LB</a>
+                                            <p>Chris Deotte · in Kaggle - LLM Science Exam · Last comment 3h ago by ZONGXIAO YING</p>
+                                        </div>
+                                    </div>
+                                    <div class="right">
+                                        <span>44 Comments</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            </div>
                             <div :class="{ 'leaderboard-tab tabs-content spc active-tab': activeTab === 'leaderboard', 'leaderboard-tab tabs-content': activeTab !== 'leaderboard' }" id="leaderboard">
                                 <h2>LeaderBoad</h2>
                                 <p>The top of the top among the top 1%</p>
