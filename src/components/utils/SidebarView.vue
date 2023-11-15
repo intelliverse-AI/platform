@@ -27,7 +27,7 @@
                             <span>Home</span>
                         </div>
                     </router-link>
-                    <router-link class="link btn-content" to="/dashboard/research-papers">
+                    <router-link class="link btn-content" to="/dashboard/research-papers" active-class="active">
                         <div class="icon">
                             <i class="fa-solid fa-table"></i>
                         </div>
@@ -35,7 +35,7 @@
                             <span>Research Papers</span>
                         </div>
                     </router-link>
-                    <router-link class="link btn-content active" to="/dashboard/challenges">
+                    <router-link class="link btn-content " to="/dashboard/challenges" active-class="active">
                         <div class="icon">
                             <i class="fa-solid fa-trophy"></i>
                         </div>
@@ -44,7 +44,7 @@
                         </div>
                     </router-link>
                    
-                    <router-link class="link btn-content" to="/dashboard/datasets">
+                    <router-link class="link btn-content" to="/dashboard/datasets" active-class="active">
                         <div class="icon">
                             <i class="fa-solid fa-share-nodes"></i>
                         </div>
@@ -52,20 +52,12 @@
                             <span>Datasets</span>
                         </div>
                     </router-link>
-                    <!-- <button class="link btn-content">
-                        <div class="icon">
-                            <i class="fa-solid fa-code"></i>
-                        </div>
-                        <div class="text">
-                            <span>Code</span>
-                        </div>
-                    </button> -->
-                    <router-link class="link btn-content" to="/dashboard/forums">
+                    <router-link class="link btn-content" to="/dashboard/forums" active-class="active">
                         <div class="icon">
                             <i class="fa-solid fa-message"></i>
                         </div>
                         <div class="text">
-                            <span>Discussion</span>
+                            <span>Forums</span>
                         </div>
                     </router-link>
                 </div>
