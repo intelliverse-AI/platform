@@ -20,9 +20,9 @@
             <a href="#">View All</a>
           </div>
           <div class="topic-cards grid grid-cols-1 md:grid-cols-3">
-            <dataset-cards type="USE DATASET"></dataset-cards>
-            <dataset-cards type="USE DATASET"></dataset-cards>
-            <dataset-cards type="USE DATASET"></dataset-cards>
+            <dataset-cards type="BUY DATASET"></dataset-cards>
+            <dataset-cards type="BUY DATASET"></dataset-cards>
+            <dataset-cards type="BUY DATASET"></dataset-cards>
           </div>
         </div>
       </div>

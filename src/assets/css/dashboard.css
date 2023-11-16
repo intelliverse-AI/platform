@@ -267,13 +267,29 @@ button.link .icon i{
     line-height: 20px;
 }
 .topic-card-info a:hover{
-    color: var(--active-color);
+    color: var(--orange);
 }
 .topic-card-info p{
     font-size: 12px;
     font-weight: 400;
     color: var(--color);
     margin: 1px 0px;
+}
+.topic-card-info .btn-citation{
+    background-color: var(--white) !important;
+    color: var(--color);
+    border: 1px solid var(--orange) !important;
+ 
+
+}
+.topic-card-info .btn-citation span{
+    height: 40px;
+    width: 140px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 10px;
+    margin: 5px;
+
 }
 .topic-card .pricing{
     border-top: 1px solid var(--grey);

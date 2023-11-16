@@ -14,7 +14,8 @@
     <div class="pricing">
       <span>50,000 Users</span>
       <div class="flex items-center paper-overview">
-        <button class="btn-citation">{{ type }}</button>
+        <span class="btn-citation h-[44px] w-[140px] flex items-center rounded-[10px] justify-center" v-if="type=='USE DATASET'">{{ type }}</span>
+        <button class="btn-download" v-else>{{ type }}</button>
       </div>
     </div>
   </div>
