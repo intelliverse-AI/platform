@@ -89,7 +89,7 @@
           <i class="fa-solid fa-message"></i>
         </div>
         <div class="text">
-          <span>Forums</span>
+          <span>Community</span>
         </div>
       </router-link>
       <router-link
