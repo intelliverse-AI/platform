@@ -3,13 +3,13 @@
                     <div id="discussion-content">
                         <div class="dash-main-cards">
                             <div class="discussion-head">
-                                <h2><i class="fa-regular fa-comments"></i> Forum</h2>
+                                <h2><i class="fa-regular fa-comments"></i> Forums</h2>
                             </div>
                             <div class="discussion-cards">
                                 <div class="discussion">
                                     <div class="left">
                                         <div class="profile-img">
-                                            <img src="/images/profile image.png" alt="AfroAI Innovate">
+                                            <img src="/images/eve.png" alt="AfroAI Innovate">
                                         </div>
                                         <div class="topic-discussed">
                                             <a href="#">Bonus 40k Dataset - Boost CV and LB</a>
@@ -17,13 +17,35 @@
                                         </div>
                                     </div>
                                     <div class="right">
-                                        <span>44 Comments</span>
+                                        <div class="flex items-center gap-1">
+              <img
+                src="/images/profile image.png"
+                alt="contributer"
+                class="rounded-full h-8 w-8"
+              />
+              <img
+                src="/images/profile image.png"
+                alt="contributer"
+                class="rounded-full h-8 w-8 -ml-4"
+              />
+              <img
+                src="/images/profile image.png"
+                alt="contributer"
+                class="rounded-full h-8 w-8 -ml-4"
+              />
+              <img
+                src="/images/profile image.png"
+                alt="contributer"
+                class="rounded-full h-8 w-8 -ml-4"
+              />
+            </div>
+                                        <span>200 Conversations</span>
                                     </div>
                                 </div>
                                 <div class="discussion">
                                     <div class="left">
                                         <div class="profile-img">
-                                            <img src="/images/profile image.png" alt="AfroAI Innovate">
+                                            <img src="/images/eve.png" alt="AfroAI Innovate">
                                         </div>
                                         <div class="topic-discussed">
                                             <a href="#">Bonus 40k Dataset - Boost CV and LB</a>
@@ -31,13 +53,35 @@
                                         </div>
                                     </div>
                                     <div class="right">
-                                        <span>44 Comments</span>
+                                        <div class="flex items-center gap-1">
+              <img
+                src="/images/profile image.png"
+                alt="contributer"
+                class="rounded-full h-8 w-8"
+              />
+              <img
+                src="/images/profile image.png"
+                alt="contributer"
+                class="rounded-full h-8 w-8 -ml-4"
+              />
+              <img
+                src="/images/profile image.png"
+                alt="contributer"
+                class="rounded-full h-8 w-8 -ml-4"
+              />
+              <img
+                src="/images/profile image.png"
+                alt="contributer"
+                class="rounded-full h-8 w-8 -ml-4"
+              />
+            </div>
+                                        <span>200 Conversations</span>
                                     </div>
                                 </div>
                                 <div class="discussion">
                                     <div class="left">
                                         <div class="profile-img">
-                                            <img src="/images/profile image.png" alt="AfroAI Innovate">
+                                            <img src="/images/eve.png" alt="AfroAI Innovate">
                                         </div>
                                         <div class="topic-discussed">
                                             <a href="#">Bonus 40k Dataset - Boost CV and LB</a>
@@ -45,9 +89,32 @@
                                         </div>
                                     </div>
                                     <div class="right">
-                                        <span>44 Comments</span>
+                                        <div class="flex items-center gap-1">
+              <img
+                src="/images/profile image.png"
+                alt="contributer"
+                class="rounded-full h-8 w-8"
+              />
+              <img
+                src="/images/profile image.png"
+                alt="contributer"
+                class="rounded-full h-8 w-8 -ml-4"
+              />
+              <img
+                src="/images/profile image.png"
+                alt="contributer"
+                class="rounded-full h-8 w-8 -ml-4"
+              />
+              <img
+                src="/images/profile image.png"
+                alt="contributer"
+                class="rounded-full h-8 w-8 -ml-4"
+              />
+            </div>
+                                        <span>200 Conversations</span>
                                     </div>
                                 </div>
+                                
                             </div>
                         </div>
                     </div>
