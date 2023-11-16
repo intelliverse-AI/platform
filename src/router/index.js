@@ -23,6 +23,11 @@ const routes = [
     component: () => import(/* webpackChunkName: "dashboard" */ '../views/DashboardView.vue'),
     children:[
       {
+        path: 'hub',
+        name: 'Hub',
+        component: () => import(/* webpackChunkName: "hub" */ '../views/dashboard/MyHub.vue'), 
+      },
+      {
         path: 'challenges',
         name: 'Challenges',
         component: () => import(/* webpackChunkName: "challenges" */ '../views/dashboard/ChallengesView.vue'), 
@@ -41,6 +46,16 @@ const routes = [
         path: 'datasets',
         name: 'Datasets',
         component: () => import(/* webpackChunkName: "forums" */ '../views/dashboard/DatasetsView.vue'), 
+      },
+      {
+        path: 'licenses',
+        name: 'Licenses',
+        component: () => import(/* webpackChunkName: "licenses" */ '../views/dashboard/LicensesView.vue'), 
+      },
+      {
+        path: 'tools',
+        name: 'Tools',
+        component: () => import(/* webpackChunkName: "licenses" */ '../views/dashboard/ToolsView.vue'), 
       },
       {
         path: 'challenge/:id',

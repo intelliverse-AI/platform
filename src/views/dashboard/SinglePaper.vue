@@ -65,7 +65,7 @@
               }
             "
           >
-            Code
+            Codebase
           </button>
           <button
             :class="{
@@ -79,7 +79,7 @@
               }
             "
           >
-            Reviews
+            Peer Reviews
           </button>
           <button
             :class="{
@@ -226,66 +226,10 @@
             <div id="discussion-content">
               <div class="dash-main-cards">
                 <div class="discussion-cards">
-                  <div class="discussion">
-                    <div class="left">
-                      <div class="profile-img">
-                        <img
-                          src="/images/profile image.png"
-                          alt="AfroAI Innovate"
-                        />
-                      </div>
-                      <div class="topic-discussed">
-                        <a href="#">Bonus 40k Dataset - Boost CV and LB</a>
-                        <p>
-                          Chris Deotte · in Kaggle - LLM Science Exam · Last
-                          comment 3h ago by ZONGXIAO YING
-                        </p>
-                      </div>
-                    </div>
-                    <div class="right">
-                      <span>44 Comments</span>
-                    </div>
-                  </div>
-                  <div class="discussion">
-                    <div class="left">
-                      <div class="profile-img">
-                        <img
-                          src="/images/profile image.png"
-                          alt="AfroAI Innovate"
-                        />
-                      </div>
-                      <div class="topic-discussed">
-                        <a href="#">Bonus 40k Dataset - Boost CV and LB</a>
-                        <p>
-                          Chris Deotte · in Kaggle - LLM Science Exam · Last
-                          comment 3h ago by ZONGXIAO YING
-                        </p>
-                      </div>
-                    </div>
-                    <div class="right">
-                      <span>44 Comments</span>
-                    </div>
-                  </div>
-                  <div class="discussion">
-                    <div class="left">
-                      <div class="profile-img">
-                        <img
-                          src="/images/profile image.png"
-                          alt="AfroAI Innovate"
-                        />
-                      </div>
-                      <div class="topic-discussed">
-                        <a href="#">Bonus 40k Dataset - Boost CV and LB</a>
-                        <p>
-                          Chris Deotte · in Kaggle - LLM Science Exam · Last
-                          comment 3h ago by ZONGXIAO YING
-                        </p>
-                      </div>
-                    </div>
-                    <div class="right">
-                      <span>44 Comments</span>
-                    </div>
-                  </div>
+                 <discussion-card></discussion-card>
+                 <discussion-card></discussion-card>
+                 <discussion-card></discussion-card>
+                 
                 </div>
               </div>
             </div>
@@ -299,114 +243,141 @@
           }"
           id="leaderboard"
         >
-          <h2>LeaderBoad</h2>
-          <p>The top of the top among the top 1%</p>
-          <table>
-            <thead>
-              <tr>
-                <th>ID</th>
-                <th>Team</th>
-                <th>Image</th>
-                <th>Score</th>
-                <th>Entries</th>
-                <th>Last</th>
-                <th>Join</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>1</td>
-                <td>Team A</td>
-                <td>
-                  <div class="circle">
-                    <img src="/images/panda.png" alt="Team Image 1" />
+          <div class="dash-content-displayed">
+            <div id="discussion-content">
+              <div class="dash-main-cards">
+                <div class="discussion-cards">
+                  
+                  <div class="discussion">
+                    <div class="left">
+                      <div class="topic-discussed">
+                        <a href="#">Bonus 40k Dataset - Boost CV and LB</a>
+                      </div>
+                    </div>
+                    <div class="right flex items-center gap-2">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="w-6 h-6"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M7.5 3.75H6A2.25 2.25 0 003.75 6v1.5M16.5 3.75H18A2.25 2.25 0 0120.25 6v1.5m0 9V18A2.25 2.25 0 0118 20.25h-1.5m-9 0H6A2.25 2.25 0 013.75 18v-1.5M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                        />
+                      </svg>
+                      View License
+                      <hr class="h-6 w-0.5 bg-black" />
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="w-6 h-6"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M12.75 15l3-3m0 0l-3-3m3 3h-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
+                      </svg>
+
+                      Use Licence
+                      <hr class="h-6 w-0.5 bg-black" />
+                    </div>
                   </div>
-                </td>
-                <td>0.233</td>
-                <td>5</td>
-                <td>16h</td>
-                <td></td>
-              </tr>
-              <tr>
-                <td>2</td>
-                <td>Team B</td>
-                <td>
-                  <div class="circle">
-                    <img src="/images/panda.png" alt="Team Image 2" />
+                  <div class="discussion">
+                    <div class="left">
+                      <div class="topic-discussed">
+                        <a href="#">Bonus 40k Dataset - Boost CV and LB</a>
+                      </div>
+                    </div>
+                    <div class="right flex items-center gap-2">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="w-6 h-6"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M7.5 3.75H6A2.25 2.25 0 003.75 6v1.5M16.5 3.75H18A2.25 2.25 0 0120.25 6v1.5m0 9V18A2.25 2.25 0 0118 20.25h-1.5m-9 0H6A2.25 2.25 0 013.75 18v-1.5M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                        />
+                      </svg>
+                      View License
+                      <hr class="h-6 w-0.5 bg-black" />
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="w-6 h-6"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M12.75 15l3-3m0 0l-3-3m3 3h-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
+                      </svg>
+
+                      Use Licence
+                      <hr class="h-6 w-0.5 bg-black" />
+                    </div>
                   </div>
-                </td>
-                <td>0.567</td>
-                <td>7</td>
-                <td>5h</td>
-                <td></td>
-              </tr>
-              <tr>
-                <td>3</td>
-                <td>Team C</td>
-                <td>
-                  <div class="circle">
-                    <img src="/images/panda.png" alt="Team Image 3" />
+                  <div class="discussion">
+                    <div class="left">
+                      <div class="topic-discussed">
+                        <a href="#">Bonus 40k Dataset - Boost CV and LB</a>
+                      </div>
+                    </div>
+                    <div class="right flex items-center gap-2">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="w-6 h-6"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M7.5 3.75H6A2.25 2.25 0 003.75 6v1.5M16.5 3.75H18A2.25 2.25 0 0120.25 6v1.5m0 9V18A2.25 2.25 0 0118 20.25h-1.5m-9 0H6A2.25 2.25 0 013.75 18v-1.5M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                        />
+                      </svg>
+                      View License
+                      <hr class="h-6 w-0.5 bg-black" />
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="w-6 h-6"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M12.75 15l3-3m0 0l-3-3m3 3h-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
+                      </svg>
+
+                      Use Licence
+                      <hr class="h-6 w-0.5 bg-black" />
+                    </div>
                   </div>
-                </td>
-                <td>0.874</td>
-                <td>3</td>
-                <td>2d</td>
-                <td></td>
-              </tr>
-              <tr>
-                <td>4</td>
-                <td>Team D</td>
-                <td>
-                  <div class="circle">
-                    <img src="/images/panda.png" alt="Team Image 4" />
-                  </div>
-                </td>
-                <td>0.321</td>
-                <td>6</td>
-                <td>1w</td>
-                <td></td>
-              </tr>
-              <tr>
-                <td>5</td>
-                <td>Team E</td>
-                <td>
-                  <div class="circle">
-                    <img src="/images/panda.png" alt="Team Image 5" />
-                  </div>
-                </td>
-                <td>0.425</td>
-                <td>4</td>
-                <td>3d</td>
-                <td></td>
-              </tr>
-              <tr>
-                <td>6</td>
-                <td>Team F</td>
-                <td>
-                  <div class="circle">
-                    <img src="/images/panda.png" alt="Team Image 6" />
-                  </div>
-                </td>
-                <td>0.654</td>
-                <td>8</td>
-                <td>4h</td>
-                <td></td>
-              </tr>
-              <tr>
-                <td>7</td>
-                <td>Team G</td>
-                <td>
-                  <div class="circle">
-                    <img src="/images/panda.png" alt="Team Image 7" />
-                  </div>
-                </td>
-                <td>0.987</td>
-                <td>2</td>
-                <td>1d</td>
-                <td></td>
-              </tr>
-            </tbody>
-          </table>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div
           :class="{
@@ -437,11 +408,26 @@
               <p><span class="text-[#E58E04] mr-1">6,000</span>Github Stars</p>
             </div>
             <div class="flex items-center gap-1">
-                <img src="/images/profile image.png" alt="contributer" class="rounded-full h-8 w-8">
-                <img src="/images/profile image.png" alt="contributer" class="rounded-full h-8 w-8 -ml-4">
-                <img src="/images/profile image.png" alt="contributer" class="rounded-full h-8 w-8 -ml-4">
-                <img src="/images/profile image.png" alt="contributer" class="rounded-full h-8 w-8 -ml-4">
-
+              <img
+                src="/images/profile image.png"
+                alt="contributer"
+                class="rounded-full h-8 w-8"
+              />
+              <img
+                src="/images/profile image.png"
+                alt="contributer"
+                class="rounded-full h-8 w-8 -ml-4"
+              />
+              <img
+                src="/images/profile image.png"
+                alt="contributer"
+                class="rounded-full h-8 w-8 -ml-4"
+              />
+              <img
+                src="/images/profile image.png"
+                alt="contributer"
+                class="rounded-full h-8 w-8 -ml-4"
+              />
             </div>
           </div>
           <div
@@ -466,15 +452,41 @@
               <p><span class="text-[#E58E04] mr-1">6,000</span>Github Stars</p>
             </div>
             <div class="flex items-center gap-1">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z" />
-</svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z"
+                />
+              </svg>
 
-                <img src="/images/profile image.png" alt="contributer" class="rounded-full h-8 w-8">
-                <img src="/images/profile image.png" alt="contributer" class="rounded-full h-8 w-8 -ml-4">
-                <img src="/images/profile image.png" alt="contributer" class="rounded-full h-8 w-8 -ml-4">
-                <img src="/images/profile image.png" alt="contributer" class="rounded-full h-8 w-8 -ml-4">
-
+              <img
+                src="/images/profile image.png"
+                alt="contributer"
+                class="rounded-full h-8 w-8"
+              />
+              <img
+                src="/images/profile image.png"
+                alt="contributer"
+                class="rounded-full h-8 w-8 -ml-4"
+              />
+              <img
+                src="/images/profile image.png"
+                alt="contributer"
+                class="rounded-full h-8 w-8 -ml-4"
+              />
+              <img
+                src="/images/profile image.png"
+                alt="contributer"
+                class="rounded-full h-8 w-8 -ml-4"
+              />
             </div>
           </div>
           <div
@@ -499,11 +511,26 @@
               <p><span class="text-[#E58E04] mr-1">6,000</span>Github Stars</p>
             </div>
             <div class="flex items-center gap-1">
-                <img src="/images/profile image.png" alt="contributer" class="rounded-full h-8 w-8">
-                <img src="/images/profile image.png" alt="contributer" class="rounded-full h-8 w-8 -ml-4">
-                <img src="/images/profile image.png" alt="contributer" class="rounded-full h-8 w-8 -ml-4">
-                <img src="/images/profile image.png" alt="contributer" class="rounded-full h-8 w-8 -ml-4">
-
+              <img
+                src="/images/profile image.png"
+                alt="contributer"
+                class="rounded-full h-8 w-8"
+              />
+              <img
+                src="/images/profile image.png"
+                alt="contributer"
+                class="rounded-full h-8 w-8 -ml-4"
+              />
+              <img
+                src="/images/profile image.png"
+                alt="contributer"
+                class="rounded-full h-8 w-8 -ml-4"
+              />
+              <img
+                src="/images/profile image.png"
+                alt="contributer"
+                class="rounded-full h-8 w-8 -ml-4"
+              />
             </div>
           </div>
         </div>
@@ -511,9 +538,11 @@
     </div>
   </div>
 </template>
-  
-  <script>
+
+<script>
+import DiscussionCard from './DiscussionCard.vue';
 export default {
+  components: { DiscussionCard },
   data() {
     return {
       activeTab: "overview",
@@ -526,6 +555,5 @@ export default {
   },
 };
 </script>
-  
-  <style>
-</style>
+
+<style></style>

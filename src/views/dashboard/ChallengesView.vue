@@ -3,15 +3,7 @@
                     <div id="challenges-content">
                         
                         <div class="dash-main-cards">
-                            <div class="top">
-                                <div class="dash-cards-categories">
-                                    <span>Computer Science</span>
-                                    <span>Data Science</span>
-                                    <span>Environment</span>
-                                    <span>Tech</span>
-                                    <span>Farming</span>
-                                </div>
-                            </div>
+                           <filters-component></filters-component>
                             <div class="cards">
                                 <div class="card-topic">
                                     <h2><i class="fa-solid fa-arrow-trend-up"></i> Trending Challenges</h2>
@@ -173,7 +165,9 @@
 </template>
 
 <script>
+import FiltersComponent from '@/components/utils/FiltersComponent.vue'
 export default {
+  components: { FiltersComponent },
 
 }
 </script>
