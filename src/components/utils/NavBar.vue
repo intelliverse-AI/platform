@@ -28,7 +28,7 @@
             ></span>
           </div>
           <div class="menu-item-lf">
-            <router-link to="/register"
+            <router-link to="/dashboard"
               ><button class="find-btn">AI Research Hub</button></router-link
             >
             <a href="/#partners">Partner Network</a>

@@ -19,6 +19,7 @@ const routes = [
   {
     path: '/dashboard',
     name: 'Dashboard',
+    redirect:'/dashboard/research-papers',
     component: () => import(/* webpackChunkName: "dashboard" */ '../views/DashboardView.vue'),
     children:[
       {
