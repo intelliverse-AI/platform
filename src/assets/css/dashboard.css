@@ -774,6 +774,7 @@ button.link .icon i{
     align-items: center;
     justify-content: space-between;
   }
+
   
   .list-card:hover {
     border: 1px solid var(--orange);
@@ -863,6 +864,26 @@ button.link .icon i{
     padding: 4px 10px;
     border: 1px solid #E58E04;
     background-color:#E58E04 ;
+  }
+  .forum-card {
+    margin: 15px 0px;
+    height: fit-content;
+    width: fit-content;
+    background: #fff;
+    border: 1px solid #dce6e9;
+    border-left-width: 0;
+    border-radius: 0 3px 3px 0;
+    transition: border-color .2s;
+    border: 1px solid var(--orange) !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .forum-card h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-style: normal;
+    color: #192325;
   }
   
   .layers .right-layer {
