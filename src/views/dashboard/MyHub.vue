@@ -8,9 +8,9 @@
               class="h-fit rounded-lg shadow-md border-solid border-2 border-[#EDE9E4] p-4"
             >
               <div class="intro-text dci">
-                <h1 class="font-bold">Research Papers</h1>
+                <h1 class="font-bold">My Research Papers</h1>
                 <p>
-                  Publish an AI research paper and get peers review your work.Gain Global recognition
+                  Publish an AI research paper, get peers review and collaborate on your work.Gain Global recognition
                 </p>
                 <button>Publish A Paper</button>
               </div>
@@ -19,10 +19,9 @@
               class="h-fit rounded-lg shadow-md border-solid border-2 border-[#EDE9E4] p-4"
             >
               <div class="intro-text dci">
-                <h1 class="font-bold">Projects</h1>
+                <h1 class="font-bold">My Projects</h1>
                 <p>
-                  Grow your skills and earn by participating in opensource and paid AI
-                  research prpojects.
+                 Start a research project and a community,datasets and tools to help you develop and track progress.
                 </p>
                <div class="flex justify-between">
                 <button class="one">Join A Project</button>
