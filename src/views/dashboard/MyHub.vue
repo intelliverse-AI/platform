@@ -24,7 +24,10 @@
                   Grow your skills and earn by participating in opensource and paid AI
                   research prpojects.
                 </p>
-                <button>Join A Project</button>
+               <div class="flex justify-between">
+                <button class="one">Join A Project</button>
+                <!-- <button class="two">Start A Project</button> -->
+               </div>
               </div>
             </div>
             <div
@@ -75,7 +78,6 @@
 
               <h1>MY RESEARCH PAPERS</h1>
             </div>
-     <research-paper-small></research-paper-small>
      <research-paper-small></research-paper-small>
             </div>
           </div>

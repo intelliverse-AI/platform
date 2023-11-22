@@ -163,15 +163,26 @@ button.link .icon i{
     font-weight: 500;
     margin: 0px 0px 30px;
 }
-.intro-text.dci button{
+.intro-text.dci.one{
     color: var(--white);
     font-weight: 500;
     margin: 0px 0px 10px;
     height: 40px;
     border: 0px;
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 2px 20px;
     background-color: var(--color);
+}
+.intro-text.dci.two button{
+    color: var(--white);
+    font-weight: 500;
+    margin: 0px 0px 10px;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px;
+    padding: 2px 20px;
+    background-color: var(--white) !important;
+    border: 1px solid var(--orange) !important;
 }
 .dash-main-cards button{
     color: var(--white);
