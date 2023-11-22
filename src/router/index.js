@@ -48,6 +48,26 @@ const routes = [
         component: () => import(/* webpackChunkName: "forums" */ '../views/dashboard/DatasetsView.vue'), 
       },
       {
+        path: 'publish',
+        name: 'Datasets',
+        component: () => import(/* webpackChunkName: "publish paper" */ '../views/dashboard/PublishPaper.vue'), 
+      },
+      {
+        path: 'startProject',
+        name: 'StartProject',
+        component: () => import(/* webpackChunkName: "start project" */ '../views/dashboard/StartProject.vue'), 
+      },
+      {
+        path: 'uploadDataset',
+        name: 'UploadDataset',
+        component: () => import(/* webpackChunkName: "upload dataset" */ '../views/dashboard/UploadDataset.vue'), 
+      },
+      {
+        path: 'getLicence',
+        name: 'GetLicense',
+        component: () => import(/* webpackChunkName: "get license" */ '../views/dashboard/GetLicense.vue'), 
+      },
+      {
         path: 'licenses',
         name: 'Licenses',
         component: () => import(/* webpackChunkName: "licenses" */ '../views/dashboard/LicensesView.vue'), 

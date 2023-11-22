@@ -10,9 +10,9 @@
               <div class="intro-text dci">
                 <h1 class="font-bold">My Research Papers</h1>
                 <p>
-                  Publish an AI research paper, get peers review and collaborate on your work.Gain Global recognition
+                  Publish an AI research paper, get peers review and collaborate on your work. Gain Global recognition
                 </p>
-                <button>Publish A Paper</button>
+                <router-link to="/dashboard/publish"><button>Publish A Paper</button></router-link>
               </div>
             </div>
             <div
@@ -24,7 +24,7 @@
                  Start a research project and a community,datasets and tools to help you develop and track progress.
                 </p>
                <div class="flex justify-between">
-                <button class="one">Join A Project</button>
+                <router-link to="/dashboard/startproject"><button class="one">Start A Project</button></router-link>
                 <!-- <button class="two">Start A Project</button> -->
                </div>
               </div>
@@ -37,7 +37,8 @@
                 <p>
                   Datasets help research effectly achieve research tasks. Upload opensource or proprietary datasets to our repository.
                 </p>
-                <button>Upload New Dataset</button>
+                <router-link to="/dashboard/uploadDataset"><button>Upload New Dataset</button></router-link>
+                
               </div>
             </div>
             <div
@@ -48,7 +49,7 @@
                 <p>
                  Do you have research work you'd want to obtain intellectual property.Apply for a Copyright or license with us
                 </p>
-                <button>Upload New Dataset</button>
+                <router-link to="/dashboard/getLicence"><button>Get Copyright</button></router-link>
               </div>
             </div>
           </div>
