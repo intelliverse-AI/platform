@@ -132,11 +132,10 @@
                   src="/images/Hackathon/design-support.svg"
                   alt="Hackathon"
                 />
-                <h4>Collaborative Hackathons</h4>
+                <h4>Research prpojects</h4>
               </div>
               <p>
-                Participate in both prized and academic hackathons,solving AI
-                research challenges
+                Grow your skills and earn by participating in academic and paid AI research prpojects.
               </p>
             </div>
           </div>
@@ -204,10 +203,9 @@
                 src="/images/Hackathon/hiring-challenges-icon.svg"
                 alt="Hackerthon"
               />
-              <h2>Host A Hackathon</h2>
+              <h2>START A PROJECT</h2>
               <p>
-                Get innovative developer teams work on your next AI solutions
-                through Hackathons hosted on Intelliverse
+                Get innovative individuals and teams collaborate on your AI solutions by starting a research project on intelliverse
               </p>
               <br />
               <button>Request a demo</button>

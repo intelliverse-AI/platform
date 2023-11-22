@@ -19,12 +19,12 @@
               class="h-fit rounded-lg shadow-md border-solid border-2 border-[#EDE9E4] p-4"
             >
               <div class="intro-text dci">
-                <h1 class="font-bold">Challenges</h1>
+                <h1 class="font-bold">Projects</h1>
                 <p>
-                  Grow your data science skills by competing in our exciting
-                  competitions.
+                  Grow your skills and earn by participating in opensource and paid AI
+                  research prpojects.
                 </p>
-                <button>Join A Challenge</button>
+                <button>Join A Project</button>
               </div>
             </div>
             <div
