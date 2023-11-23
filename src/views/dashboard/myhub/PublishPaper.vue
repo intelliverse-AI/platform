@@ -222,31 +222,31 @@
     </div>
     <form action="" class="space-y-3">
       <div class="control-group space-y-1">
-        <label for="name">Name of Project</label>
+        <label for="name">Name of Research Paper</label>
         <input type="text" />
       </div>
       <div class="control-group space-y-1">
-        <label for="name">Describe the Project</label>
+        <label for="name">Describe the Research Paper</label>
+        <textarea type="text"></textarea>
+      </div>
+      <div class="control-group space-y-1">
+        <label for="name">Give Citation</label>
         <textarea type="text"></textarea>
       </div>
       <div class="timelines">
         <span>Timelines</span>
         <div class="space-y-1 mx-4 flex gap-2 items-center">
-          <label for="name">Start Date</label>
+          <label for="name">First Publication</label>
           <input type="date" />
         </div>
         <div class="space-y-1 mx-4 flex gap-2 items-center">
-          <label for="name"> Entry Deadline.</label>
-          <input type="date" />
-        </div>
-        <div class="space-y-1 mx-5 flex gap-2 items-center">
-          <label for="name">Final Submission Deadline.</label>
+          <label for="name">Last Publication Edits</label>
           <input type="date" />
         </div>
       </div>
       <div class="control-group">
         <div class="flex items-center">
-          <label for="prices">Prices and Incentives</label>
+          <label for="prices">Documents</label>
           <a>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -270,7 +270,7 @@
                 stroke-linejoin="round"
               />
             </svg>
-            Add
+            Upload PDF
           </a>
         </div>
       </div>
@@ -347,6 +347,54 @@
       </div>
       <div class="control-group">
         <div class="flex items-center">
+          <label for="prices">Licenses</label>
+          <a>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M18.375 12.739l-7.693 7.693a4.5 4.5 0 01-6.364-6.364l10.94-10.94A3 3 0 1119.5 7.372L8.552 18.32m.009-.01l-.01.01m5.699-9.941l-7.81 7.81a1.5 1.5 0 002.112 2.13"
+              />
+            </svg>
+
+            Select Existing
+          </a>
+          <a>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+            >
+              <path
+                d="M3.99902 8H11.999"
+                stroke="#838A91"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M7.99902 12V4"
+                stroke="#838A91"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            Add New
+          </a>
+        </div>
+      </div>
+      <div class="control-group">
+        <div class="flex items-center">
           <label for="prices">Project Contributers</label>
           <a>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -359,42 +407,16 @@
         </div>
       </div>
       <div class="control-group">
-        <div class="flex items-center">
-          <label for="prices">Participation Guidelines</label>
-          <a>
-            <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="20"
-          height="20"
-          viewBox="0 0 20 20"
-          fill="none"
-        >
-          <g clip-path="url(#clip0_602_1278)">
-            <path
-              d="M18.3337 9.23336V10C18.3326 11.797 17.7507 13.5456 16.6748 14.9849C15.5988 16.4242 14.0864 17.4771 12.3631 17.9866C10.6399 18.4961 8.79804 18.4349 7.11238 17.8122C5.42673 17.1894 3.98754 16.0384 3.00946 14.5309C2.03138 13.0234 1.56682 11.2401 1.68506 9.44696C1.80329 7.65383 2.498 5.94697 3.66556 4.58092C4.83312 3.21488 6.41098 2.26285 8.16382 1.86682C9.91665 1.47079 11.7505 1.65198 13.392 2.38336"
-              stroke="#697077"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M18.3333 3.33337L10 11.675L7.5 9.17504"
-              stroke="#697077"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </g>
-          <defs>
-            <clipPath id="clip0_602_1278">
-              <rect width="20" height="20" fill="white" />
-            </clipPath>
-          </defs>
-        </svg>
-
-
-            Add 
-          </a>
+        <div class="flex items-center gap-4">
+          <label for="prices">Sharing Options</label>
+          <div class="flex items-center whitespace-nowrap">
+           <input type="radio" name="" id="">
+            Collaborative Document
+          </div>
+          <div class="flex items-center whitespace-nowrap ">
+           <input type="radio" name="" id="">
+            Closed Publication
+          </div>
         </div>
       </div>
     </form>

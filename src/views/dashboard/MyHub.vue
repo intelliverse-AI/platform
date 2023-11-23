@@ -11,7 +11,7 @@
                 <div class="flex items-center justify-between">
                   <h1 class="font-bold">My Projects</h1>
                   <div class="flex gap-2">
-                  <router-link to="/dashboard/hub/startproject" class="flex rounded-lg border-solid border-2 border-[#e58e0] px-2 hover:border-[#E58E04]">
+                  <router-link to="/dashboard/hub/startproject" class="flex rounded-lg border-solid border-2 border-[#e58e0] px-2 hover:border-[#E58E04]" active-class="border-[#E58E04]">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
   <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
 </svg>
@@ -39,7 +39,7 @@
                 <div class="flex items-center justify-between">
                   <h1 class="font-bold">My Research Papers</h1>
                   <div class="flex gap-2">
-                  <router-link to="/dashboard/publish" class="flex rounded-lg border-solid border-2 border-[#e58e0] px-2 hover:border-[#E58E04]">
+                  <router-link to="/dashboard/hub/publish" class="flex rounded-lg border-solid border-2 border-[#e58e0] px-2 hover:border-[#E58E04]" active-class="border-[#E58E04]">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
   <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
 </svg>

@@ -954,6 +954,12 @@ td {
   align-items: flex-start;
   gap: 10px;
 }
+.control-group input[type="radio"] {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  margin-right: 10px;
+}
 .control-group textarea {
   border-radius: 8px;
   border: 1px solid var(--Stroke, #e9ebec);
@@ -972,30 +978,30 @@ td {
   line-height: normal;
   white-space: nowrap;
 }
-.timelines span{
-    color: var(--Black, #181a1b);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+.timelines span {
+  color: var(--Black, #181a1b);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 .timelines input {
-    border-radius: 8px;
-    border: 1px solid var(--Stroke, #e9ebec);
-    background: var(--White, #fff);
-    display: flex;
-    width: 100%;
-    padding: 5px;
-    align-items: flex-start;
-    gap: 10px;
-  }
-  .control-group a{
-    display: flex;
-padding: 2px 8px 2px 5px;
-justify-content: center;
-align-items: center;
-gap: 4px;
-border-radius: 30px;
-background: var(--Background-2, #fff);
-margin-left: 20px;
-  }
+  border-radius: 8px;
+  border: 1px solid var(--Stroke, #e9ebec);
+  background: var(--White, #fff);
+  display: flex;
+  width: 100%;
+  padding: 5px;
+  align-items: flex-start;
+  gap: 10px;
+}
+.control-group a {
+  display: flex;
+  padding: 2px 8px 2px 5px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 30px;
+  background: var(--Background-2, #fff);
+  margin-left: 20px;
+}
