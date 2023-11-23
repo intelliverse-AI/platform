@@ -26,6 +26,24 @@ const routes = [
         path: 'hub',
         name: 'Hub',
         component: () => import(/* webpackChunkName: "hub" */ '../views/dashboard/MyHub.vue'), 
+        children:[
+          {
+            path: 'startProject',
+            name: 'StartProject',
+            component: () => import(/* webpackChunkName: "start project" */ '../views/dashboard/myhub/StartProject.vue'), 
+          },
+          {
+            path: 'overview',
+            name: 'Overview',
+            component: () => import(/* webpackChunkName: "overview" */ '../views/dashboard/myhub/HubOverview.vue'), 
+          },
+          {
+            path: 'publish',
+            name: 'Datasets',
+            component: () => import(/* webpackChunkName: "publish paper" */ '../views/dashboard/myhub/PublishPaper.vue'), 
+          },
+
+        ]
       },
       {
         path: 'challenges',
@@ -48,19 +66,9 @@ const routes = [
         component: () => import(/* webpackChunkName: "forums" */ '../views/dashboard/DatasetsView.vue'), 
       },
       {
-        path: 'publish',
-        name: 'Datasets',
-        component: () => import(/* webpackChunkName: "publish paper" */ '../views/dashboard/PublishPaper.vue'), 
-      },
-      {
-        path: 'startProject',
-        name: 'StartProject',
-        component: () => import(/* webpackChunkName: "start project" */ '../views/dashboard/StartProject.vue'), 
-      },
-      {
         path: 'uploadDataset',
         name: 'UploadDataset',
-        component: () => import(/* webpackChunkName: "upload dataset" */ '../views/dashboard/UploadDataset.vue'), 
+        component: () => import(/* webpackChunkName: "upload dataset" */ '../views/dashboard/myhub/UploadDataset.vue'), 
       },
       {
         path: 'getLicence',
