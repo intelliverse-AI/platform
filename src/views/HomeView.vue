@@ -195,7 +195,7 @@
                 project
               </p>
               <br />
-              <button>Request a demo</button>
+              <button><a href="/register">Request a demo</a></button>
             </div>
             <div class="innovate-card">
               <img
@@ -208,7 +208,7 @@
                 Get innovative individuals and teams collaborate on your AI solutions by starting a research project on intelliverse
               </p>
               <br />
-              <button>Request a demo</button>
+              <button><a href="/register">Request a demo</a></button>
             </div>
             <div class="innovate-card">
               <img
@@ -222,7 +222,7 @@
               </p>
 
               <br />
-              <button>Speak to Our Team</button>
+              <button><a href="/register">Speak to Our Team</a></button>
             </div>
           </div>
         </div>
