@@ -12,8 +12,8 @@
                 across Africa
               </h1>
               <p>
-                Join a collaborative research hub and innovation ecosystem
-                focusing on developing AI solutions tailored for Africa's unique
+                Join a collaborative AI research hub and innovation ecosystem
+                focusing on developing solutions tailored for Africa's unique
                 challenges.
               </p>
               <div class="bn-btns">
@@ -54,30 +54,30 @@
           <div class="ctc-content">
             <div class="ctc-card">
               <h3>AI Researchers Registered</h3>
-              <p class="hidden-paragraph">8500+</p>
+              <p class="hidden-paragraph">2500+</p>
             </div>
-
+<!-- 
             <hr
               class="w-full h-0.5 md:h-40 md:w-0 border-solid border-white border-[1px]"
-            />
-
+            /> -->
+<!-- 
             <div class="ctc-card">
               <h3>Research Papers Published</h3>
-              <p class="hidden-paragraph">2000+</p>
-            </div>
+              <p class="hidden-paragraph">300+</p>
+            </div> -->
             <hr
               class="w-full h-0.5 md:h-40 md:w-0 border-solid border-white border-[1px]"
             />
             <div class="ctc-card">
-              <h3>Collaborative Partners</h3>
+              <h3>Collaborating Enterprise Partners</h3>
               <p class="hidden-paragraph">30+</p>
             </div>
             <hr
               class="w-full h-0.5 md:h-40 md:w-0 border-solid border-white border-[1px]"
             />
             <div class="ctc-card">
-              <h3>Challenges Completed</h3>
-              <p class="hidden-paragraph">150+</p>
+              <h3>Collaborative AI Projects Started</h3>
+              <p class="hidden-paragraph">200+</p>
             </div>
           </div>
         </div>
