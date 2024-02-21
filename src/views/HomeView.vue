@@ -54,30 +54,29 @@
           <div class="ctc-content">
             <div class="ctc-card">
               <h3>AI Researchers Registered</h3>
-              <p class="hidden-paragraph">2500+</p>
+              <p class="hidden-paragraph">1500+</p>
             </div>
-<!-- 
             <hr
               class="w-full h-0.5 md:h-40 md:w-0 border-solid border-white border-[1px]"
-            /> -->
-<!-- 
+            /> 
+
             <div class="ctc-card">
               <h3>Research Papers Published</h3>
-              <p class="hidden-paragraph">300+</p>
-            </div> -->
+              <p class="hidden-paragraph">200+</p>
+            </div>
             <hr
               class="w-full h-0.5 md:h-40 md:w-0 border-solid border-white border-[1px]"
             />
             <div class="ctc-card">
-              <h3>Collaborating Enterprise Partners</h3>
+              <h3>Collaborative Research Partners</h3>
               <p class="hidden-paragraph">30+</p>
             </div>
             <hr
               class="w-full h-0.5 md:h-40 md:w-0 border-solid border-white border-[1px]"
             />
             <div class="ctc-card">
-              <h3>Collaborative AI Projects Started</h3>
-              <p class="hidden-paragraph">200+</p>
+              <h3>AI Research Projects</h3>
+              <p class="hidden-paragraph">20</p>
             </div>
           </div>
         </div>
@@ -195,7 +194,7 @@
                 project
               </p>
               <br />
-              <button>Request a demo</button>
+              <button><a href="/register">Request a demo</a></button>
             </div>
             <div class="innovate-card">
               <img
@@ -208,7 +207,7 @@
                 Get innovative individuals and teams collaborate on your AI solutions by starting a research project on intelliverse
               </p>
               <br />
-              <button>Request a demo</button>
+              <button><a href="/register">Request a demo</a></button>
             </div>
             <div class="innovate-card">
               <img
@@ -216,14 +215,13 @@
                 src="/images/Hackathon/evaluation.svg"
                 alt="Hackerthon"
               />
-              <h2>Academic Research</h2>
+              <h2>Data Contributers</h2>
               <p>
-                Universities,NGOs,and Governments can host impact based research
-                challenges to our AI Community
+                Universities,NGOs,and Governments,Private Enterprises can contribute datasets to help foster AI research and jointly build better AI models and solutions
               </p>
 
               <br />
-              <button>Request a demo</button>
+              <button><a href="/register">Speak to Our Team</a></button>
             </div>
           </div>
         </div>
