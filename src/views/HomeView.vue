@@ -56,30 +56,29 @@
         <div class="community-talent-contain container">
           <div class="ctc-content">
             <div class="ctc-card">
-              <h3>AI Researchers Registered</h3>
-              <p class="hidden-paragraph">1500+</p>
+              <h3 class="">More training Data for robust Machine learning models</h3>
+             
             </div>
             <hr
               class="w-full h-0.5 md:h-40 md:w-0 border-solid border-white border-[1px]"
             /> 
 
             <div class="ctc-card">
-              <h3>Research Papers Published</h3>
-              <p class="hidden-paragraph">200+</p>
+              <h3>Reduced costs and risks of AI Adoption</h3>
+             
             </div>
             <hr
               class="w-full h-0.5 md:h-40 md:w-0 border-solid border-white border-[1px]"
             />
             <div class="ctc-card">
-              <h3>Collaborative Research Partners</h3>
-              <p class="hidden-paragraph">30+</p>
+              <h3>Faster development and deployment of AI applications.</h3>
+             
             </div>
             <hr
               class="w-full h-0.5 md:h-40 md:w-0 border-solid border-white border-[1px]"
             />
             <div class="ctc-card">
-              <h3>AI Research Projects</h3>
-              <p class="hidden-paragraph">20</p>
+              <h3>Enhanced data security and privacy.</h3>
             </div>
           </div>
         </div>
