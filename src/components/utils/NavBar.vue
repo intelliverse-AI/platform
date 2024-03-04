@@ -31,10 +31,12 @@
             <router-link to="/register"
               ><button class="find-btn">AI Research Hub</button></router-link
             >
-            <a href="/#partners">Partner Network</a>
-            <a href="/register">Research Papers</a>
+            <a href="https://rafikihealth.com" target="blank">Rafiki AI</a>
+            <a href="https://evacare.baby" target="blank">Evacare AI</a>
+            <a href="https://www.linkedin.com/events/7119664586336710656/comments/" target="blank">Africa AI Summit</a>
             <a href="/events">Events</a>
-            <!-- <a href="/ai-summit">Africa AI Summit</a> -->
+            <a href="https://calendly.com/marwamasese/30min" target="blank">Speak to Our team</a>
+       
           </div>
           <div class="dropdown">
             <button class="dropbtn flex items-center">
