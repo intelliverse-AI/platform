@@ -150,8 +150,7 @@
               need to build AI solutions to solve some of the continent’s most
               pressing challenges. Our Community-first approach ensures that
               researchers and engineers understand the needs and challenges
-              facing the African Continent, collaboratively publish
-              peer-reviewed whitepapers and develop solutions that are relevant
+              facing the African Continent and collaboratively develop solutions that are relevant
               and effective.
             </p>
           </div>
@@ -165,7 +164,7 @@
                 Take Part in AI Research Projects Shaping the Future of African
                 Continent
               </h3>
-              <a href="#" class="rounded-lg">Join The Hub</a>
+              <a href="https://calendly.com/marwamasese/30min" class="rounded-lg">Join The Hub</a>
             </div>
           </div>
         </div>
@@ -196,7 +195,7 @@
                 project
               </p>
               <br />
-              <button><a href="/register">Request a demo</a></button>
+              <button><a href="https://calendly.com/marwamasese/30min">Request a demo</a></button>
             </div>
             <div class="innovate-card">
               <img
@@ -209,7 +208,7 @@
                 Get innovative individuals and teams collaborate on your AI solutions by starting a research project on intelliverse
               </p>
               <br />
-              <button><a href="/register">Request a demo</a></button>
+              <button><a href="https://calendly.com/marwamasese/30min">Request a demo</a></button>
             </div>
             <div class="innovate-card">
               <img
@@ -223,7 +222,7 @@
               </p>
 
               <br />
-              <button><a href="/register">Speak to Our Team</a></button>
+              <button><a href="https://calendly.com/marwamasese/30min">Speak to Our Team</a></button>
             </div>
           </div>
         </div>
