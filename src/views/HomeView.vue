@@ -94,11 +94,23 @@
                   src="/images/Hackathon/management-team.svg"
                   alt="Hackathon"
                 />
-                <h4>Research Papers</h4>
+                <h4>Joint Research Projects</h4>
               </div>
               <p>
-                Unified workspace to Post, update, and collaborate on new and
-                existing peer-reviewed AI research papers and projects
+                Collaborate with our team on cutting-edge research projects in various AI domains.
+              </p>
+            </div>
+         
+            <div class="card rounded">
+              <div class="flex items-center mb-2">
+                <img
+                  src="/images/Hackathon/team-creation.svg"
+                  alt="Hackathon"
+                />
+                <h4>Proof-of-Concept Development:</h4>
+              </div>
+              <p>
+                Validate the feasibility of your AI ideas through rapid prototyping and testing.
               </p>
             </div>
             <div class="card rounded">
@@ -117,26 +129,13 @@
             <div class="card rounded">
               <div class="flex items-center mb-2">
                 <img
-                  src="/images/Hackathon/team-creation.svg"
-                  alt="Hackathon"
-                />
-                <h4>AI Models &amp;Copyrights</h4>
-              </div>
-              <p>
-                Discover trained, ready-to-deploy machine learning models and
-                get copyrights for your own models
-              </p>
-            </div>
-            <div class="card rounded">
-              <div class="flex items-center mb-2">
-                <img
                   src="/images/Hackathon/design-support.svg"
                   alt="Hackathon"
                 />
-                <h4>Research prpojects</h4>
+                <h4>ML Model Development & Deployment</h4>
               </div>
               <p>
-                Grow your skills and earn by participating in academic and paid AI research prpojects.
+                We work closely with you to design and develop AI solutions that meet your specific requirements.
               </p>
             </div>
           </div>
